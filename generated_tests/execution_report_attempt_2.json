@@ -1,0 +1,16 @@
+{
+    "timestamp": "2026-10-11T16:32:08.165529",
+    "attempt": 2,
+    "python_executable": "D:\\AI Agent\\.venv\\Scripts\\python.exe",
+    "command": "D:\\AI Agent\\.venv\\Scripts\\python.exe -m pytest generated_tests/tests -v --headed --browser-channel=chrome --tb=long",
+    "exit_code": 0,
+    "passed": 5,
+    "failed": 0,
+    "errors": 0,
+    "skipped": 0,
+    "failed_tests": [],
+    "status": "PASSED",
+    "stdout": "============================= test session starts =============================\nplatform win32 -- Python 3.14.3, pytest-9.1.1, pluggy-1.6.0 -- D:\\AI Agent\\.venv\\Scripts\\python.exe\ncachedir: .pytest_cache\nrootdir: D:\\AI Agent\nplugins: anyio-4.15.1, base-url-2.1.0, playwright-0.9.0\ncollecting ... collected 5 items\n\ngenerated_tests/tests/test_portfolio.py::test_portfolio_title_and_welcome[chromium] PASSED [ 20%]\ngenerated_tests/tests/test_portfolio.py::test_navigation_links[chromium] PASSED [ 40%]\ngenerated_tests/tests/test_portfolio.py::test_work_experience_section[chromium] PASSED [ 60%]\ngenerated_tests/tests/test_portfolio.py::test_featured_work_and_skills[chromium] PASSED [ 80%]\ngenerated_tests/tests/test_portfolio.py::test_footer_and_contact_section[chromium] PASSED [100%]\n\n============================== 5 passed in 4.88s ==============================\n",
+    "stderr": "",
+    "full_output": "============================= test session starts =============================\nplatform win32 -- Python 3.14.3, pytest-9.1.1, pluggy-1.6.0 -- D:\\AI Agent\\.venv\\Scripts\\python.exe\ncachedir: .pytest_cache\nrootdir: D:\\AI Agent\nplugins: anyio-4.15.1, base-url-2.1.0, playwright-0.9.0\ncollecting ... collected 5 items\n\ngenerated_tests/tests/test_portfolio.py::test_portfolio_title_and_welcome[chromium] PASSED [ 20%]\ngenerated_tests/tests/test_portfolio.py::test_navigation_links[chromium] PASSED [ 40%]\ngenerated_tests/tests/test_portfolio.py::test_work_experience_section[chromium] PASSED [ 60%]\ngenerated_tests/tests/test_portfolio.py::test_featured_work_and_skills[chromium] PASSED [ 80%]\ngenerated_tests/tests/test_portfolio.py::test_footer_and_contact_section[chromium] PASSED [100%]\n\n============================== 5 passed in 4.88s ==============================\n\n"
+}

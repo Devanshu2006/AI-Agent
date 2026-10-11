@@ -1,0 +1,42 @@
+{
+    "safe_to_auto_heal": true,
+    "failure_category": "locator",
+    "root_cause": "Strict mode violations in Playwright occur because the locators `page.get_by_role(\"link\", name=\"Contact\")` and `page.get_by_text(\"Python\")` match multiple elements on the page. Specifically, 'Contact' matches both the navbar link and the 'Contact Me' button/link, and 'Python' matches multiple skill tag elements as well as text in the skill section.",
+    "confidence": "High",
+    "suggested_fix": "Refine the locators to be unique or use `.first` / specify exact matching or scope them appropriately (e.g., using `exact=True` for the contact link or scoping the Python text check to the skills section).",
+    "patches": [
+        {
+            "file": "generated_tests/pages/portfolio_page.py",
+            "operation": "replace",
+            "old_text": "        self.contact_link = page.get_by_role(\"link\", name=\"Contact\")",
+            "new_text": "        self.contact_link = page.get_by_role(\"link\", name=\"Contact\", exact=True)",
+            "reason": "Avoid strict mode violation by using exact=True so it doesn't match 'Contact Me'."
+        },
+        {
+            "file": "generated_tests/tests/test_portfolio.py",
+            "operation": "replace",
+            "old_text": "    assert page.get_by_text(\"Python\").is_visible()",
+            "new_text": "    assert page.locator(\"#skills\").get_by_text(\"Python\").first.is_visible()",
+            "reason": "Scope the Python text check to the skills section and use .first or specific locator to avoid matching multiple elements."
+        }
+    ],
+    "healed": true,
+    "backup_directory": "generated_tests\\backups\\attempt_2",
+    "applied_patches": [
+        {
+            "file": "generated_tests/pages/portfolio_page.py",
+            "operation": "replace",
+            "old_text": "        self.contact_link = page.get_by_role(\"link\", name=\"Contact\")",
+            "new_text": "        self.contact_link = page.get_by_role(\"link\", name=\"Contact\", exact=True)",
+            "reason": "Avoid strict mode violation by using exact=True so it doesn't match 'Contact Me'."
+        },
+        {
+            "file": "generated_tests/tests/test_portfolio.py",
+            "operation": "replace",
+            "old_text": "    assert page.get_by_text(\"Python\").is_visible()",
+            "new_text": "    assert page.locator(\"#skills\").get_by_text(\"Python\").first.is_visible()",
+            "reason": "Scope the Python text check to the skills section and use .first or specific locator to avoid matching multiple elements."
+        }
+    ],
+    "timestamp": "2026-10-11T16:32:02.036713"
+}
