@@ -1,23 +1,11 @@
-from playwright.sync_api import Page, Locator
-
+from playwright.sync_api import Page
 
 class LoginPage:
-
     def __init__(self, page: Page):
         self.page = page
-        self.username_input: Locator = page.get_by_placeholder("INVALID_USERNAME")
-        self.password_input: Locator = page.get_by_placeholder("Password")
-        self.login_button: Locator = page.get_by_role("button", name="Login")
-        self.app_logo: Locator = page.get_by_text("Swag Labs")
-        self.credentials_heading: Locator = page.get_by_text("Accepted usernames are:")
+        self.email_input = page.get_by_label("Email/Phone:")
+        self.password_input = page.get_by_label("Password:")
+        self.login_button = page.get_by_role("button", name="Login")
 
-    def navigate(self):
-        self.page.goto("https://www.saucedemo.com/")
-
-    def login(self, username: str, password: str):
-        self.username_input.fill(username)
-        self.password_input.fill(password)
-        self.login_button.click()
-
-    def get_title(self) -> str:
-        return self.page.title()
+    def open(self):
+        self.page.goto("https://denqr.onrender.com/login")

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="2" skipped="2" tests="5" time="32.654" timestamp="2026-10-17T20:40:55.337780+05:30" hostname="LAPTOP-JGF7E8OP"><testcase classname="generated_tests.tests.test_bugs" name="test_bug001_images_missing_alt[chromium]" time="6.114"><skipped type="pytest.xfail" message="BUG001: Images without alt attribute" /></testcase><testcase classname="generated_tests.tests.test_bugs" name="test_bug002_unlabeled_input[chromium]" time="4.003"><skipped type="pytest.xfail" message="BUG002: Form fields without an accessible label" /></testcase><testcase classname="generated_tests.tests.test_home" name="test_homepage_headings[chromium]" time="8.765"><failure message="AssertionError: Locator expected to be visible&#10;Actual value: None&#10;Error: element(s) not found &#10;Call log:&#10;  - Expect &quot;to_be_visible&quot; locator(&quot;text=Explore&quot;).first with timeout 5000ms&#10;  - waiting for locator(&quot;text=Explore&quot;).first&#10;&#10;Aria snapshot:&#10;- banner:&#10;  - button &quot;Guide&quot;&#10;  - link &quot;YouTube Home&quot;:&#10;    - /url: /&#10;  - text: IN&#10;  - button &quot;Skip navigation&quot;&#10;  - search:&#10;    - combobox &quot;Search&quot; [expanded]&#10;    - button &quot;Search&quot;&#10;  - button &quot;Search with your voice&quot;&#10;  - tooltip &quot;tooltip&quot;&#10;  - button &quot;Settings&quot;&#10;  - link &quot;Sign in&quot;:&#10;    - /url: https://accounts.google.com/ServiceLogin?service=youtube&amp;uilel=3&amp;passive=true&amp;continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&amp;hl=en&amp;ec=65620&#10;- navigation:&#10;  - link &quot;Home&quot;:&#10;    - /url: /&#10;  - link &quot;Shorts&quot;:&#10;    - /url: /shorts/&#10;  - link &quot;Subscriptions&quot;:&#10;    - /url: /feed/subscriptions&#10;  - link &quot;You&quot;:&#10;    - /url: /feed/you&#10;- main:&#10;  - heading &quot;Try searching to get started&quot; [level=2]&#10;  - text: Start watching videos to help us build a feed of videos you'll love.">generated_tests\tests\test_home.py:8: in test_homepage_headings
+    home.verify_headings()
+generated_tests\pages\home_page.py:22: in verify_headings
+    expect(self.explore_heading).to_be_visible()
+E   AssertionError: Locator expected to be visible
+E   Actual value: None
+E   Error: element(s) not found 
+E   Call log:
+E     - Expect "to_be_visible" locator("text=Explore").first with timeout 5000ms
+E     - waiting for locator("text=Explore").first
+E   
+E   Aria snapshot:
+E   - banner:
+E     - button "Guide"
+E     - link "YouTube Home":
+E       - /url: /
+E     - text: IN
+E     - button "Skip navigation"
+E     - search:
+E       - combobox "Search" [expanded]
+E       - button "Search"
+E     - button "Search with your voice"
+E     - tooltip "tooltip"
+E     - button "Settings"
+E     - link "Sign in":
+E       - /url: https://accounts.google.com/ServiceLogin?service=youtube&amp;uilel=3&amp;passive=true&amp;continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&amp;hl=en&amp;ec=65620
+E   - navigation:
+E     - link "Home":
+E       - /url: /
+E     - link "Shorts":
+E       - /url: /shorts/
+E     - link "Subscriptions":
+E       - /url: /feed/subscriptions
+E     - link "You":
+E       - /url: /feed/you
+E   - main:
+E     - heading "Try searching to get started" [level=2]
+E     - text: Start watching videos to help us build a feed of videos you'll love.</failure></testcase><testcase classname="generated_tests.tests.test_home" name="test_homepage_search_controls[chromium]" time="4.105" /><testcase classname="generated_tests.tests.test_home" name="test_homepage_navigation_links[chromium]" time="9.450"><failure message="AssertionError: Locator expected to be visible&#10;Actual value: None&#10;Error: element(s) not found &#10;Call log:&#10;  - Expect &quot;to_be_visible&quot; get_by_role(&quot;link&quot;, name=&quot;History&quot;) with timeout 5000ms&#10;  - waiting for get_by_role(&quot;link&quot;, name=&quot;History&quot;)&#10;&#10;Aria snapshot:&#10;- banner:&#10;  - button &quot;Guide&quot;&#10;  - link &quot;YouTube Home&quot;:&#10;    - /url: /&#10;  - text: IN&#10;  - button &quot;Skip navigation&quot;&#10;  - search:&#10;    - combobox &quot;Search&quot; [expanded]&#10;    - button &quot;Search&quot;&#10;  - button &quot;Search with your voice&quot;&#10;  - tooltip &quot;tooltip&quot;&#10;  - button &quot;Settings&quot;&#10;  - link &quot;Sign in&quot;:&#10;    - /url: https://accounts.google.com/ServiceLogin?service=youtube&amp;uilel=3&amp;passive=true&amp;continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&amp;hl=en&amp;ec=65620&#10;- navigation:&#10;  - link &quot;Home&quot;:&#10;    - /url: /&#10;  - link &quot;Shorts&quot;:&#10;    - /url: /shorts/&#10;  - link &quot;Subscriptions&quot;:&#10;    - /url: /feed/subscriptions&#10;  - link &quot;You&quot;:&#10;    - /url: /feed/you&#10;- main:&#10;  - heading &quot;Try searching to get started&quot; [level=2]&#10;  - text: Start watching videos to help us build a feed of videos you'll love.">generated_tests\tests\test_home.py:18: in test_homepage_navigation_links
+    home.verify_navigation_links()
+generated_tests\pages\home_page.py:34: in verify_navigation_links
+    expect(self.history_link).to_be_visible()
+E   AssertionError: Locator expected to be visible
+E   Actual value: None
+E   Error: element(s) not found 
+E   Call log:
+E     - Expect "to_be_visible" get_by_role("link", name="History") with timeout 5000ms
+E     - waiting for get_by_role("link", name="History")
+E   
+E   Aria snapshot:
+E   - banner:
+E     - button "Guide"
+E     - link "YouTube Home":
+E       - /url: /
+E     - text: IN
+E     - button "Skip navigation"
+E     - search:
+E       - combobox "Search" [expanded]
+E       - button "Search"
+E     - button "Search with your voice"
+E     - tooltip "tooltip"
+E     - button "Settings"
+E     - link "Sign in":
+E       - /url: https://accounts.google.com/ServiceLogin?service=youtube&amp;uilel=3&amp;passive=true&amp;continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&amp;hl=en&amp;ec=65620
+E   - navigation:
+E     - link "Home":
+E       - /url: /
+E     - link "Shorts":
+E       - /url: /shorts/
+E     - link "Subscriptions":
+E       - /url: /feed/subscriptions
+E     - link "You":
+E       - /url: /feed/you
+E   - main:
+E     - heading "Try searching to get started" [level=2]
+E     - text: Start watching videos to help us build a feed of videos you'll love.</failure></testcase></testsuite></testsuites>

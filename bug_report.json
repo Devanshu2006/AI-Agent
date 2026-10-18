@@ -1,0 +1,212 @@
+{
+  "website": "https://denqr.onrender.com/",
+  "generated_at": "2026-10-18T17:44:17",
+  "bug_count": 12,
+  "bugs": [
+    {
+      "category": "broken_page",
+      "severity": "Critical",
+      "title": "Page returns HTTP 503",
+      "url": "https://denqr.onrender.com/",
+      "stage": "public",
+      "requires_auth": false,
+      "evidence": [
+        "HTTP 503 when opening https://denqr.onrender.com/",
+        "Linked from: https://denqr.onrender.com/shipping"
+      ],
+      "expected": "The page loads with a successful (<400) status",
+      "status": "Needs Review",
+      "confidence": "Unverified",
+      "verification_attempts": 0,
+      "recommended_action": "Reproduce the issue and collect fresh evidence before confirming severity.",
+      "id": "BUG001"
+    },
+    {
+      "category": "javascript_error",
+      "severity": "High",
+      "title": "Uncaught JavaScript error on page load",
+      "url": "https://denqr.onrender.com/Admin",
+      "stage": "public",
+      "requires_auth": false,
+      "evidence": [
+        "document.getElementById(...).addEventListner is not a function"
+      ],
+      "expected": "No uncaught JavaScript errors on load",
+      "status": "Needs Review",
+      "confidence": "Unverified",
+      "verification_attempts": 0,
+      "recommended_action": "Reproduce the issue and collect fresh evidence before confirming severity.",
+      "id": "BUG002"
+    },
+    {
+      "category": "javascript_error",
+      "severity": "High",
+      "title": "Uncaught JavaScript error on page load",
+      "url": "https://denqr.onrender.com/kitchen_dashboard",
+      "stage": "authenticated",
+      "requires_auth": true,
+      "evidence": [
+        "io is not defined"
+      ],
+      "expected": "No uncaught JavaScript errors on load",
+      "status": "Needs Review",
+      "confidence": "Unverified",
+      "verification_attempts": 0,
+      "recommended_action": "Reproduce the issue and collect fresh evidence before confirming severity.",
+      "id": "BUG003"
+    },
+    {
+      "category": "console_error",
+      "severity": "Medium",
+      "title": "Errors logged to the browser console",
+      "url": "https://denqr.onrender.com/menu",
+      "stage": "authenticated",
+      "requires_auth": true,
+      "evidence": [
+        "Error fetching data: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas with ID 'salesOrdersChart' can be reused.\n    at new Tn (https://cdn.jsdelivr.net/npm/chart.js:13:90635)\n    at renderChart (https://denqr.onrender.com/Analytics:269:9)\n    at https://denqr.on"
+      ],
+      "expected": "No console errors on load",
+      "status": "Needs Review",
+      "confidence": "Unverified",
+      "verification_attempts": 0,
+      "recommended_action": "Reproduce the issue and collect fresh evidence before confirming severity.",
+      "id": "BUG004"
+    },
+    {
+      "category": "missing_h1",
+      "severity": "Low",
+      "title": "Page has no <h1> heading",
+      "url": "https://denqr.onrender.com/Admin",
+      "stage": "public",
+      "requires_auth": false,
+      "evidence": [
+        "No <h1> element found"
+      ],
+      "expected": "Page has a main heading",
+      "status": "Needs Review",
+      "confidence": "Unverified",
+      "verification_attempts": 0,
+      "recommended_action": "Reproduce the issue and collect fresh evidence before confirming severity.",
+      "id": "BUG005"
+    },
+    {
+      "category": "missing_h1",
+      "severity": "Low",
+      "title": "Page has no <h1> heading",
+      "url": "https://denqr.onrender.com/forgot_password",
+      "stage": "public",
+      "requires_auth": false,
+      "evidence": [
+        "No <h1> element found"
+      ],
+      "expected": "Page has a main heading",
+      "status": "Needs Review",
+      "confidence": "Unverified",
+      "verification_attempts": 0,
+      "recommended_action": "Reproduce the issue and collect fresh evidence before confirming severity.",
+      "id": "BUG006"
+    },
+    {
+      "category": "unlabeled_input",
+      "severity": "Low",
+      "title": "Form fields without an accessible label",
+      "url": "https://denqr.onrender.com/forgot_password",
+      "stage": "public",
+      "requires_auth": false,
+      "evidence": [
+        "Unlabelled fields: email"
+      ],
+      "expected": "Every visible field has a label or aria-label",
+      "status": "Needs Review",
+      "confidence": "Unverified",
+      "verification_attempts": 0,
+      "recommended_action": "Reproduce the issue and collect fresh evidence before confirming severity.",
+      "id": "BUG007"
+    },
+    {
+      "category": "missing_h1",
+      "severity": "Low",
+      "title": "Page has no <h1> heading",
+      "url": "https://denqr.onrender.com/login",
+      "stage": "public",
+      "requires_auth": false,
+      "evidence": [
+        "No <h1> element found"
+      ],
+      "expected": "Page has a main heading",
+      "status": "Needs Review",
+      "confidence": "Unverified",
+      "verification_attempts": 0,
+      "recommended_action": "Reproduce the issue and collect fresh evidence before confirming severity.",
+      "id": "BUG008"
+    },
+    {
+      "category": "unlabeled_input",
+      "severity": "Low",
+      "title": "Form fields without an accessible label",
+      "url": "https://denqr.onrender.com/qr",
+      "stage": "authenticated",
+      "requires_auth": true,
+      "evidence": [
+        "Unlabelled fields: tableCount"
+      ],
+      "expected": "Every visible field has a label or aria-label",
+      "status": "Needs Review",
+      "confidence": "Unverified",
+      "verification_attempts": 0,
+      "recommended_action": "Reproduce the issue and collect fresh evidence before confirming severity.",
+      "id": "BUG009"
+    },
+    {
+      "category": "unlabeled_input",
+      "severity": "Low",
+      "title": "Form fields without an accessible label",
+      "url": "https://denqr.onrender.com/settings",
+      "stage": "authenticated",
+      "requires_auth": true,
+      "evidence": [
+        "Unlabelled fields: upi_id, upi_id, current_password, new_password, confirm_password"
+      ],
+      "expected": "Every visible field has a label or aria-label",
+      "status": "Needs Review",
+      "confidence": "Unverified",
+      "verification_attempts": 0,
+      "recommended_action": "Reproduce the issue and collect fresh evidence before confirming severity.",
+      "id": "BUG010"
+    },
+    {
+      "category": "missing_h1",
+      "severity": "Low",
+      "title": "Page has no <h1> heading",
+      "url": "https://denqr.onrender.com/staff_login",
+      "stage": "public",
+      "requires_auth": false,
+      "evidence": [
+        "No <h1> element found"
+      ],
+      "expected": "Page has a main heading",
+      "status": "Needs Review",
+      "confidence": "Unverified",
+      "verification_attempts": 0,
+      "recommended_action": "Reproduce the issue and collect fresh evidence before confirming severity.",
+      "id": "BUG011"
+    },
+    {
+      "category": "unlabeled_input",
+      "severity": "Low",
+      "title": "Form fields without an accessible label",
+      "url": "https://denqr.onrender.com/staff_login",
+      "stage": "public",
+      "requires_auth": false,
+      "evidence": [
+        "Unlabelled fields: role, contact"
+      ],
+      "expected": "Every visible field has a label or aria-label",
+      "status": "Needs Review",
+      "confidence": "Unverified",
+      "verification_attempts": 0,
+      "recommended_action": "Reproduce the issue and collect fresh evidence before confirming severity.",
+      "id": "BUG012"
+    }
+  ]
+}

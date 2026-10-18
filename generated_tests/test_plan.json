@@ -1,75 +1,28 @@
 {
-    "website": "https://devanshu-girare.onrender.com/",
-    "page_type": "portfolio",
+    "website": "",
+    "page_type": "empty",
     "test_scenarios": [
         {
             "id": "TC001",
-            "title": "Verify Portfolio Homepage Title and Main Heading",
-            "type": "Positive",
-            "priority": "High",
-            "steps": [
-                "Navigate to the portfolio URL",
-                "Verify the page title",
-                "Verify the main welcome heading is visible"
-            ],
-            "expected_result": "Page title should be 'portfolio' and the main heading 'Welcome to my Portfolio.' should be visible."
-        },
-        {
-            "id": "TC002",
-            "title": "Verify Navigation Links Visibility and Text",
-            "type": "Positive",
-            "priority": "Medium",
-            "steps": [
-                "Navigate to the portfolio URL",
-                "Check visibility of navigation links: Overview, Projects, Skills, and Contact"
-            ],
-            "expected_result": "All expected navigation links should be visible on the page with correct text."
-        },
-        {
-            "id": "TC003",
-            "title": "Verify Work Experience Section Content",
+            "title": "Test empty page load and title validation",
             "type": "Validation",
-            "priority": "Medium",
-            "steps": [
-                "Navigate to the portfolio URL",
-                "Check for the Work Experience heading and startup details (DenQr)"
-            ],
-            "expected_result": "Work Experience section and 'DenQr' startup details should be correctly displayed."
-        },
-        {
-            "id": "TC004",
-            "title": "Verify Featured Work Projects and Skills List",
-            "type": "Positive",
             "priority": "High",
             "steps": [
-                "Navigate to the portfolio URL",
-                "Verify featured work project titles are visible",
-                "Verify skills section items are displayed"
+                "Navigate to the application URL"
             ],
-            "expected_result": "Featured projects ('Online Food Ordering System', 'Complaint Management System', 'Mobile Sales Analysis') and skills list should be visible."
-        },
-        {
-            "id": "TC005",
-            "title": "Verify Social and Contact Links",
-            "type": "Positive",
-            "priority": "Medium",
-            "steps": [
-                "Navigate to the portfolio URL",
-                "Check that contact and social anchor links (LinkedIn, GitHub, Email, WhatsApp) are present"
-            ],
-            "expected_result": "Social and contact links should have valid href attributes corresponding to observed data."
+            "expected_result": "Page loads successfully without elements"
         }
     ],
     "files": [
         {
-            "path": "pages/portfolio_page.py",
+            "path": "pages/empty_page.py",
             "type": "page_object",
-            "code": "from playwright.sync_api import Page\n\n\nclass PortfolioPage:\n\n    def __init__(self, page: Page):\n        self.page = page\n        self.url = \"https://devanshu-girare.onrender.com/\"\n        self.welcome_heading = page.get_by_role(\"heading\", name=\"Welcome to my Portfolio.\")\n        self.overview_link = page.get_by_role(\"link\", name=\"Overview\")\n        self.projects_link = page.get_by_role(\"link\", name=\"Projects\")\n        self.skills_link = page.get_by_role(\"link\", name=\"Skills\")\n        self.contact_link = page.get_by_role(\"link\", name=\"Contact\")\n        self.download_resume_button = page.get_by_role(\"button\", name=\"Download Resume\")\n        self.work_experience_heading = page.get_by_role(\"heading\", name=\"Work Experience\")\n        self.featured_work_heading = page.get_by_role(\"heading\", name=\"Featured Work\")\n        self.skills_heading = page.get_by_role(\"heading\", name=\"My Skills\")\n        self.get_in_touch_heading = page.get_by_role(\"heading\", name=\"Get In Touch\")\n\n    def navigate(self):\n        self.page.goto(self.url)\n\n    def get_title(self) -> str:\n        return self.page.title()\n\n    def is_welcome_visible(self) -> bool:\n        return self.welcome_heading.is_visible()\n\n    def are_nav_links_visible(self) -> bool:\n        return (\n            self.overview_link.is_visible()\n            and self.projects_link.is_visible()\n            and self.skills_link.is_visible()\n            and self.contact_link.is_visible()\n        )\n\n    def is_work_experience_visible(self) -> bool:\n        return self.work_experience_heading.is_visible()\n\n    def is_featured_work_visible(self) -> bool:\n        return self.featured_work_heading.is_visible()\n\n    def is_skills_section_visible(self) -> bool:\n        return self.skills_heading.is_visible()\n\n    def is_get_in_touch_visible(self) -> bool:\n        return self.get_in_touch_heading.is_visible()\n"
+            "code": "from playwright.sync_api import Page\n\n\nclass EmptyPage:\n\n    def __init__(self, page: Page):\n        self.page = page\n\n    def navigate(self, url: str):\n        self.page.goto(url)\n"
         },
         {
-            "path": "tests/test_portfolio.py",
+            "path": "tests/test_empty.py",
             "type": "test",
-            "code": "import pytest\nfrom playwright.sync_api import Page\n\nfrom generated_tests.pages.portfolio_page import PortfolioPage\n\n\ndef test_portfolio_title_and_welcome(page: Page):\n    portfolio = PortfolioPage(page)\n    portfolio.navigate()\n    assert portfolio.get_title() == \"portfolio\"\n    assert portfolio.is_welcome_visible()\n\n\ndef test_navigation_links(page: Page):\n    portfolio = PortfolioPage(page)\n    portfolio.navigate()\n    assert portfolio.are_nav_links_visible()\n\n\ndef test_work_experience_section(page: Page):\n    portfolio = PortfolioPage(page)\n    portfolio.navigate()\n    assert portfolio.is_work_experience_visible()\n    assert page.get_by_text(\"DenQr\").is_visible()\n\n\ndef test_featured_work_and_skills(page: Page):\n    portfolio = PortfolioPage(page)\n    portfolio.navigate()\n    assert portfolio.is_featured_work_visible()\n    assert page.get_by_text(\"Online Food Ordering System\").is_visible()\n    assert page.get_by_text(\"Complaint Management System\").is_visible()\n    assert page.get_by_text(\"Mobile Sales Analysis\").is_visible()\n    assert portfolio.is_skills_section_visible()\n    assert page.get_by_text(\"Python\").is_visible()\n\n\ndef test_footer_and_contact_section(page: Page):\n    portfolio = PortfolioPage(page)\n    portfolio.navigate()\n    assert portfolio.is_get_in_touch_visible()\n    assert page.get_by_text(\"\u00a9 2026 All rights are reserved.\").is_visible()\n"
+            "code": "import pytest\nfrom playwright.sync_api import Page\n\nfrom generated_tests.pages.empty_page import EmptyPage\n\n\ndef test_page_loads(page: Page):\n    empty_page = EmptyPage(page)\n    empty_page.navigate(\"about:blank\")\n    assert page.url == \"about:blank\"\n"
         }
     ]
 }
