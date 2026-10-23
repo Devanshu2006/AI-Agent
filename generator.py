@@ -8,7 +8,7 @@ PAGES_DIR = GENERATED_ROOT / "pages"
 TESTS_DIR = GENERATED_ROOT / "tests"
 
 # Written by bug_detector.py / this module, never by the AI.
-RESERVED_FILES = {"__init__.py", "conftest.py", "test_bugs.py"}
+RESERVED_FILES = {"__init__.py", "conftest.py", "test_bugs.py", "test_forms.py", "test_flows.py"}
 
 CONFTEST_CODE = '''"""Shared fixtures for generated Playwright tests."""
 
@@ -34,6 +34,7 @@ def pytest_configure(config):
 def browser_context_args(browser_context_args):
     """Reuse the session saved by the website explorer when available."""
     args = dict(browser_context_args)
+    args.setdefault("viewport", {"width": 1440, "height": 900})  # same size the explorer used
 
     if AUTH_STATE.exists():
         args["storage_state"] = str(AUTH_STATE)

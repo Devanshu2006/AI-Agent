@@ -25,6 +25,10 @@ from generator import (
     save_test_plan,
 )
 from healer import heal_failed_tests
+from form_test_codegen import generate_form_tests
+from form_tester import run_form_tests
+from flow_test_codegen import generate_flow_tests
+from flow_tester import run_flow_tests
 
 
 # ============================================================
@@ -285,6 +289,12 @@ def build_suite(website_data, bugs):
                 # not by the AI planner.
                 generate_bug_tests(bugs)
 
+                # Deterministic form tests (verified expected vs actual).
+                generate_form_tests(website_data.get("form_tests"))
+
+                # Deterministic user-journey tests (verified flows).
+                generate_flow_tests(website_data.get("flow_tests"))
+
                 errors = collect_validation_errors()
 
                 if errors:
@@ -452,6 +462,44 @@ def main():
             f"\n[Agent] Bug detection failed: {error}"
         )
         return False
+
+    # STEP 2b: LIVE FORM TESTING (expected vs actual)
+    website_data["form_tests"] = None
+    if os.getenv("FORM_TESTS", "1") == "1":
+        print(
+            "\n========== STEP 2b: LIVE FORM TESTING =========="
+        )
+        try:
+            form_results = run_form_tests(website_data)
+            website_data["form_tests"] = form_results
+            for form_bug in form_results.get("bugs", []):
+                form_bug["id"] = f"BUG{len(bugs) + 1:03d}"
+                bugs.append(form_bug)
+            if form_results.get("bugs"):
+                save_bug_report(bugs, effective_url)
+        except Exception as error:
+            print(
+                f"\n[Agent] Form testing failed (continuing): {error}"
+            )
+
+    # STEP 2c: USER-JOURNEY (FLOW) TESTING
+    website_data["flow_tests"] = None
+    if os.getenv("FLOW_TESTS", "1") == "1":
+        print(
+            "\n========== STEP 2c: USER-JOURNEY TESTING =========="
+        )
+        try:
+            flow_results = run_flow_tests(website_data)
+            website_data["flow_tests"] = flow_results
+            for flow_bug in flow_results.get("bugs", []):
+                flow_bug["id"] = f"BUG{len(bugs) + 1:03d}"
+                bugs.append(flow_bug)
+            if flow_results.get("bugs"):
+                save_bug_report(bugs, effective_url)
+        except Exception as error:
+            print(
+                f"\n[Agent] Flow testing failed (continuing): {error}"
+            )
 
     # STEP 3: PLAN + GENERATE + VALIDATE
     print(

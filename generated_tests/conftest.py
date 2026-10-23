@@ -22,6 +22,7 @@ def pytest_configure(config):
 def browser_context_args(browser_context_args):
     """Reuse the session saved by the website explorer when available."""
     args = dict(browser_context_args)
+    args.setdefault("viewport", {"width": 1440, "height": 900})  # same size the explorer used
 
     if AUTH_STATE.exists():
         args["storage_state"] = str(AUTH_STATE)

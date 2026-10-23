@@ -1,131 +1,1445 @@
 {
-  "website": "https://denqr.onrender.com/",
-  "total_pages": 17,
-  "public_pages": 10,
-  "authenticated_pages": 7,
-  "auth_state_saved": true,
+  "website": "https://myntra.com/",
+  "total_pages": 1,
+  "public_pages": 1,
+  "authenticated_pages": 0,
+  "auth_state_saved": false,
   "pages": [
     {
-      "url": "https://denqr.onrender.com/",
-      "title": "DenQr - Effortless Restaurant Ordering",
+      "url": "https://www.myntra.com/",
+      "title": "Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra",
       "lang": "en",
       "headings": [
         {
           "level": "h1",
-          "text": "DenQr"
-        },
-        {
-          "level": "h1",
-          "text": "Make Ordering at Your Restaurant Effortless."
-        },
-        {
-          "level": "h2",
-          "text": "Features That Drive Growth"
+          "text": "ONLINE SHOPPING MADE EASY AT MYNTRA"
         },
         {
           "level": "h3",
-          "text": "Dynamic Digital Menu"
+          "text": "BEST ONLINE SHOPPING SITE IN INDIA FOR FASHION"
         },
         {
           "level": "h3",
-          "text": "Contactless Ordering"
+          "text": "AFFORDABLE FASHION AT YOUR FINGERTIPS"
         },
         {
           "level": "h3",
-          "text": "Secure Payments"
+          "text": "MYNTRA INSIDER"
         },
         {
           "level": "h3",
-          "text": "Real-time Analytics"
+          "text": "Myntra Studio - The Personalised Fashion Feed You Wouldn’t Want To Miss Out On"
         },
         {
           "level": "h3",
-          "text": "Intuitive Admin Dashboard"
+          "text": "MYNTRA APP"
         },
         {
           "level": "h3",
-          "text": "Dedicated Support"
+          "text": "HISTORY OF MYNTRA"
         },
         {
-          "level": "h2",
-          "text": "A Glimpse of Our Dashboard"
-        },
-        {
-          "level": "h2",
-          "text": "What Our Clients Say"
-        },
-        {
-          "level": "h2",
-          "text": "Ready to Modernize Your Restaurant?"
+          "level": "h3",
+          "text": "SHOP ONLINE AT MYNTRA WITH COMPLETE CONVENIENCE"
         }
       ],
       "links": [
         {
-          "text": "Login",
-          "href": "https://denqr.onrender.com/login",
+          "text": "Myntra Insider New",
+          "href": "https://www.myntra.com/myntrainsider?cache=false",
           "aria_label": "",
           "target": "",
           "dangerous": false
         },
         {
-          "text": "Sign Up",
-          "href": "https://denqr.onrender.com/Admin",
+          "text": "Gift Card",
+          "href": "https://www.myntra.com/giftcard",
           "aria_label": "",
           "target": "",
           "dangerous": false
         },
         {
-          "text": "Privacy",
-          "href": "https://denqr.onrender.com/privacy",
+          "text": "Track Orders",
+          "href": "https://www.myntra.com/my/orders",
           "aria_label": "",
           "target": "",
           "dangerous": false
         },
         {
-          "text": "Terms & Condition",
-          "href": "https://denqr.onrender.com/terms",
-          "aria_label": "",
-          "target": "",
-          "dangerous": false
-        },
-        {
-          "text": "Contact",
-          "href": "https://denqr.onrender.com/contact",
-          "aria_label": "",
-          "target": "",
-          "dangerous": false
-        },
-        {
-          "text": "Refund Policy",
-          "href": "https://denqr.onrender.com/refund",
-          "aria_label": "",
-          "target": "",
-          "dangerous": false
-        },
-        {
-          "text": "Shipping & delivery Policy",
-          "href": "https://denqr.onrender.com/shipping",
+          "text": "Contact Us",
+          "href": "https://www.myntra.com/contactus",
           "aria_label": "",
           "target": "",
           "dangerous": false
         },
         {
           "text": "",
-          "href": "https://www.instagram.com/denqrorg.in",
+          "href": "https://www.myntra.com/",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "MEN",
+          "href": "https://www.myntra.com/shop/men",
           "aria_label": "",
           "target": "",
           "dangerous": false
         },
         {
           "text": "",
-          "href": "https://denqr.onrender.com/",
+          "href": "https://www.myntra.com/men-topwear",
           "aria_label": "",
           "target": "",
           "dangerous": false
         },
         {
           "text": "",
-          "href": "tel:+917999178184",
+          "href": "https://www.myntra.com/men-tshirts",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/men-casual-shirts",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/men-formal-shirts",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/men-sweatshirts",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/men-sweaters",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/men-jackets",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/men-blazers",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/men-suits",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/rain-jacket",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/men-ethnic-wear",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/men-kurtas",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/sherwani",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/nehru-jackets",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/dhoti",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/men-bottomwear",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/men-jeans",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/men-casual-trousers",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/men-formal-trousers",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/mens-shorts",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/men-trackpants",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/men-innerwear",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/men-briefs-and-trunks",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/men-boxers",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/men-innerwear-vests",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/men-nightwear",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/men-thermals",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/plus-size-for-men",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/men-footwear",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/men-casual-shoes",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/men-sports-shoes",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/men-formal-shoes",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/men-sneakers",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/men-sandals",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/men-flip-flops",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/men-socks",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/men-personal-care",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/men-sunglasses",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/mens-watches",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/men-sports-wear",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/men-sports-shoes",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/men-sports-sandals",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/men-sports-wear-tshirts",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/men-trackpants-shorts",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/men-tracksuits",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/men-sports-jackets",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/men-sports-accessories",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/men-swimwear",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/gadgets",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/smart-wearables",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/smart-wearables?f=Categories%3AFitness%20Bands",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/headphones",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/speakers",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/men-accessories",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/men-wallets",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/men-belts",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/perfumes",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/trimmer",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/deodorant",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/men-belts-ties",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/men-accessory-gift-set",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/men-caps",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/men-gloves-mufflers-scarves",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/mobile-phone-cases",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/men-jewellery",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/helmets",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/men-bags-backpacks",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/trolley-bags",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "WOMEN",
+          "href": "https://www.myntra.com/shop/women",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/fusion-wear",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/women-kurtas-kurtis-suits",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/ethnic-tops",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/saree",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/women-ethnic-wear",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/women-ethnic-bottomwear?f=categories%3AChuridar%2CLeggings%2CSalwar",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/skirts-palazzos",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/dress-material",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/lehenga-choli",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/dupatta-shawl",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/women-jackets",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/women-accessories",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/women-watches",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/womens-western-wear",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/dresses?f=Gender%3Amen%20women%2Cwomen",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/tops",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/myntra-fashion-store?f=Categories%3ATshirts%3A%3AGender%3Amen%20women%2Cwomen",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/women-jeans",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/women-trousers",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/women-shorts-skirts",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/myntra-fashion-store?f=Categories%3AClothing%20Set%2CCo-Ords%3A%3AGender%3Amen%20women%2Cwomen",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/playsuit?f=Gender%3Amen%20women%2Cwomen",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/jumpsuits?f=Gender%3Amen%20women%2Cwomen",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/women-shrugs",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/women-sweaters-sweatshirts",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/women-jackets-coats",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/women-blazers-waistcoats",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/plus-size-for-women",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/myntra-fashion-store?f=Categories%3ACamisoles%2CChuridar%2CDresses%2CHarem%20Pants%2CJeans%2CKurta%20Sets%2CKurtas%2CKurtis%2CLeggings%2CLounge%20Tshirts%2CNightdress%2CPalazzos%2CShirts%2CShrug%2CSkirts%2CTops%2CTrack%20Pants%2CTrousers%2CTshirts%2CTunics%3A%3AGender%3Amen%20women%2Cwomen%3A%3AOccasion%3AMaternity",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/women-sunglasses",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/women-footwear",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/flats",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/women-casual-shoes",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/women-heels",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/women-boots-menu",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/women-sports-shoes",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/women-sportswear",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/women-sportswear-clothing",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/women-sports-shoes",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/women-sports-accessories",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/women-sports-equipments",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/lingerie-and-loungewear1",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/bra",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/women-briefs",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/women-clothing-shapewear",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/women-loungewear-and-nightwear",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/women-swimwear",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/camisoles-and-thermals",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/women-personal-care",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/makeup",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/skin-care?f=gender%3Amen%20women%2Cwomen",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/women-personal-care?f=brand%3ABobbi%20Brown%2CBvlgari%2CCalvin%20Klein%2CClinique%2CDAVIDOFF%2CDermalogica%2CForest%20Essentials%2CKAMA%20AYURVEDA%2CSalvatore%20Ferragamo",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/lipstick",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/women-perfumes",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/gadgets",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/smart-wearables",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/smart-wearables?f=Categories%3AFitness%20Bands",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/headphones",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/speakers",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/women-jewellery",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/fashion-jewellery",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/fine-jewellery",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/earrings",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/backpacks-for-women",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/handbags-and-bags",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/trolley-bags",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "KIDS",
+          "href": "https://www.myntra.com/shop/kids",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/boy",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/boy-tshirts",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/boy-shirts",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/boy-shorts",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/boy-jeans",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/boy-trousers",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/boy-clothing-sets",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/boy-ethnic-wear",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/boy-trackpants",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/boy-winter-wear",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/boy-party-wear",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/boy-innerwear",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/boy-nightwear",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/boy-value-packs",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/girl",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/girl-dresses",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/girl-tops",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/girl-tshirts",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/girl-clothing-sets",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/girl-lehenga-choli",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/girl-kurta-sets",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/girl-party-wear",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/girl-jumpsuits",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/girl-skirts-and-shorts",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/girl-tights-and-leggings",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/girl-bottom-wear",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/girl-winter-wear",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/girl-innerwear-and-thermals",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/girl-nightwear",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/girl-value-packs",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/kids-footwear",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/kids-footwear?f=Categories%3ACasual%20Shoes&plaEnabled=false",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/kids-footwear?f=Categories%3AFlip%20Flops&plaEnabled=false",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/kids-footwear?f=Categories%3ASports%20Shoes&plaEnabled=false",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/kids-footwear?f=Categories%3AFlats&plaEnabled=false",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/kids-footwear?f=Categories%3ASandals%2CSports%20Sandals&plaEnabled=false",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/kids-footwear?f=Categories%3AHeels&plaEnabled=false",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/school-shoes?plaEnabled=false",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/kids?f=Categories%3ABooties%2CSocks&plaEnabled=false",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/toys-and-games",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/toys-and-games?f=Categories%3ALearning%20and%20Development%20Toys&plaEnabled=false",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/toys-and-games?f=Categories%3AActivity%20Toys%20and%20Games&plaEnabled=false",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/toys-and-games?f=Categories%3ASoft%20Toys%20and%20Dolls&plaEnabled=false",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/toys-and-games?f=Categories%3AAction%20Figures%20and%20Play%20Set&plaEnabled=false",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/inf-tki",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/kids?f=Categories%3ABodysuit&plaEnabled=false",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/kids?f=Categories%3ARompers%2CSleepsuit&plaEnabled=false",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/kids?f=Age%3A0M-3M%2C12M-18M%2C18M-24M%2C3M-6M%2C6M-9M%2C9M-12M%2CNewborn%3A%3ACategories%3AClothing%20Set&plaEnabled=false",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/kids?f=Age%3A0M-3M%2C12M-18M%2C18M-24M%2C3M-6M%2C6M-9M%2C9M-12M%2CNewborn%3A%3ACategories%3ATops%2CTshirts&plaEnabled=false",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/kids?f=Age%3A0M-3M%2C12M-18M%2C18M-24M%2C3M-6M%2C6M-9M%2C9M-12M%2CNewborn%3A%3ACategories%3ADresses&plaEnabled=false",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/kids?f=Age%3A0M-3M%2C12M-18M%2C18M-24M%2C3M-6M%2C6M-9M%2C9M-12M%2CNewborn%3A%3ACategories%3ACapris%2CJeans%2CJeggings%2CLeggings%2CLounge%20Pants%2CLounge%20Shorts%2CPyjamas%2CShorts%2CSkirts%2CTights%2CTrack%20Pants%2CTrousers&plaEnabled=false",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/inf-tki?f=Age%3A0M-3M%2C12M-18M%2C18M-24M%2C3M-6M%2C6M-9M%2C9M-12M%2CNewborn%3A%3ACategories%3ABlazers%2CJackets%2CSweaters%2CSweatshirts%2CWaistcoat&plaEnabled=false",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/inf-tki?f=Categories%3ABoxers%2CBriefs%2CCamisoles%2CInnerwear%20Vests%2CNight%20suits%2CPyjamas%2CThermal%20Bottoms%2CThermal%20Set%2CThermal%20Tops%2CTrunk&plaEnabled=false",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/kids?f=Categories%3ABaby%20Apparel%20Gift%20Set%2CBaby%20Care%20Products%2CBaby%20Gear%20%26%20Nursery%2CBibs%2CDiaper%20Bags%2CMittens%2CNapkin%20Set&plaEnabled=false",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/kids-home-bath",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/personal-care-kids",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/kids-accessories",
+          "aria_label": "",
+          "target": "",
+          "dangerous": false
+        },
+        {
+          "text": "",
+          "href": "https://www.myntra.com/kids?f=Categories%3ABackpacks%2CSchool%20Essentials%2CStationery%2CWater%20Bottle&plaEnabled=false",
           "aria_label": "",
           "target": "",
           "dangerous": false
@@ -133,7 +1447,29 @@
       ],
       "buttons": [
         {
-          "text": "Get Started",
+          "text": "Previous",
+          "aria_label": "",
+          "name": "",
+          "id": "",
+          "type": "button",
+          "test_id": "",
+          "disabled": false,
+          "visible": false,
+          "dangerous": false
+        },
+        {
+          "text": "Next",
+          "aria_label": "",
+          "name": "",
+          "id": "",
+          "type": "button",
+          "test_id": "",
+          "disabled": false,
+          "visible": false,
+          "dangerous": false
+        },
+        {
+          "text": "1",
           "aria_label": "",
           "name": "",
           "id": "",
@@ -144,7 +1480,29 @@
           "dangerous": false
         },
         {
-          "text": "Start My Free Trial",
+          "text": "2",
+          "aria_label": "",
+          "name": "",
+          "id": "",
+          "type": "",
+          "test_id": "",
+          "disabled": false,
+          "visible": true,
+          "dangerous": false
+        },
+        {
+          "text": "3",
+          "aria_label": "",
+          "name": "",
+          "id": "",
+          "type": "",
+          "test_id": "",
+          "disabled": false,
+          "visible": true,
+          "dangerous": false
+        },
+        {
+          "text": "4",
           "aria_label": "",
           "name": "",
           "id": "",
@@ -155,524 +1513,29 @@
           "dangerous": false
         }
       ],
-      "inputs": [],
+      "inputs": [
+        {
+          "tag": "input",
+          "type": "",
+          "name": "",
+          "id": "",
+          "placeholder": "Search for products, brands and more",
+          "aria_label": "",
+          "title": "",
+          "label": "",
+          "test_id": "",
+          "required": false,
+          "visible": true
+        }
+      ],
       "forms": [],
-      "images_missing_alt": 0,
-      "h1_count": 2,
-      "text": "DenQr\nLogin\nSign Up\nMake Ordering at Your Restaurant Effortless.\n\nEmpower your customers with a modern, seamless dining experience. Digital menus, direct ordering, and hassle-free payments—all from their phone.\n\nGet Started\nFeatures That Drive Growth\n\nStreamline your operations and enhance customer satisfaction with our powerful tools.\n\nDynamic Digital Menu\n\nEasily update your menu, prices, and specials in real-time. No more printing or laminating.\n\nContactless Ordering\n\nGuests can browse and order from their own devices, reducing wait times and improving accuracy.\n\nSecure Payments\n\nOffer multiple payment options directly from the table, providing a seamless and secure checkout.\n\nReal-time Analytics\n\nGain valuable insights into your best-selling items, peak hours, and customer preferences.\n\nIntuitive Admin Dashboard\n\nManage all your orders, staff, and menus from a single, easy-to-use dashboard.\n\nDedicated Support\n\nOur support team is ready to help you every step of the way, ensuring a smooth and successful transition.\n\nA Glimpse of Our Dashboard\n\nTake a look at the powerful, intuitive admin interface that puts you in control.\n\nWhat Our Clients Say\n\nDiscover how DenQr has transformed operations for restaurants like yours.\n\nIshika Gurmeet Singh\n\nOwner, Ashmeet House\n\n\"DenQr has completely changed how we operate. Our staff is more efficient, and customers love the convenience. A game-changer for our business!\"\n\nBijendra Pawar\n\nManager, The RasRang Coffie House\n\n\"The seamless payment feature has significantly sped up our checkout process. We've seen a measurable increase in customer satisfaction since implementing DenQr.\"\n\nReady to Modernize Your Restaurant?\n\nTake the first step towards a more efficient and profitable future. Get started with DenQr today!\n\nStart My Free Trial\n\n© 2025 DenQr. All rights reserved.\n\nPrivacy\nTerms & Condition\nContact\nRefund Policy\nShipping & delivery Policy",
-      "text_hash": "481a76e3f5",
+      "images_missing_alt": 15,
+      "h1_count": 1,
+      "text": "MEN\nWOMEN\nKIDS\nHOME\nBEAUTY\nGENZ\nSTUDIO NEW\nProfile\nWishlist\nBag\n1\n2\n3\n4\n\nUPTO ₹500 OFF\n\nONLINE SHOPPING\n\nMen\nWomen\nKids\nHome\nBeauty\nGenz\nGift Cards\nMyntra Insider\n\nUSEFUL LINKS\n\nBlog\nCareers\nSite Map\nCorporate Information\nWhitehat\nCleartrip\nMyntra Global\n\nCUSTOMER POLICIES\n\nContact Us\nFAQ\nT&C\nTerms Of Use\nTrack Orders\nShipping\nCancellation\nPrivacy policy\nGrievance Redressal\nFSSAI Food Safety Connect app\n\nEXPERIENCE MYNTRA APP ON MOBILE\n\nKEEP IN TOUCH\n100% ORIGINAL guarantee for all products at myntra.com\nReturn within 14days of receiving your order\nPOPULAR SEARCHES\nMakeup  Dresses For Girls  T-Shirts  Sandals  Headphones  Babydolls  Blazers For Men  Handbags  Ladies Watches  Bags  Sport Shoes  Reebok Shoes  Puma Shoes  Boxers  Wallets  Tops  Earrings  Fastrack Watches  Kurtis  Nike  Smart Watches  Titan Watches  Designer Blouse  Gowns  Rings  Cricket Shoes  Forever 21  Eye Makeup  Photo Frames  Punjabi Suits  Bikini  Myntra Fashion Show  Lipstick  Saree  Watches  Dresses  Lehenga  Nike Shoes  Goggles  Bras  Suit  Chinos  Shoes  Adidas Shoes  Woodland Shoes  Jewellery  Designers Sarees\nIn case of any concern, Contact Us\n© 2026 www.myntra.com. All rights reserved.\nA Flipkart company\n\nRegistered Office Address\n\nBuildings Alyssa,\nBegonia and Clover situated in Embassy Tech Village,\nOuter Ring Road,\nDevarabeesanahalli Village,\nVarthur Hobli,\nBengaluru – 560103, India\n\nCIN: U72300KA2007PTC041799\n\nTelephone: 080‑40011450\n\nONLINE SHOPPING MADE EASY AT MYNTRA\n\nIf you would like to experience the best of online shopping for men, women and kids in India, you are at the right place. Myntra is the ultimate destination for fashion and lifestyle, being host to a wide array of merchandise including clothing, footwear, accessories, jewellery, personal care products and more. It is time to redefine your style statement with our treasure-trove of trendy items. Our online store brings you the latest in designer products straight out of fashion houses. You can shop online at Myntra from the comfort of your home and get your favourites delivered right to your doorstep.\n\nBEST ONLINE SHOPPING SITE IN INDIA FOR FASHION\n\nBe it clothing, footwear or accessories, Myntra offers you the ideal combination of fashion and functionality for men, women and kids. You will realise that the sky is the limit when it comes to the types of outfits that you can purchase for different occasions.\n\nSmart men’s clothing - At Myntra you will find myriad options in smart formal shirts and trousers, cool T-shirts and jeans, or kurta and pyjama combinations for men. Wear your attitude with printed T-shirts. Create the back-to-campus vibe with varsity T-shirts and distressed jeans. Be it gingham, buffalo, or window-pane style, checked shirts are unbeatably smart. Team them up with chinos, cuffed jeans or cropped trousers for a smart casual look. Opt for a stylish layered look with biker jackets. Head out in cloudy weather with courage in water-resistant jackets. Browse through our innerwear section to find supportive garments which would keep you confident in any outfit.\nTrendy women’s clothing - Online shopping for women at Myntra is a mood-elevating experience. Look hip and stay comfortable with chinos and printed shorts this summer. Look hot on your date dressed in a little black dress, or opt for red dresses for a sassy vibe. Striped dresses and T-shirts represent the classic spirit of nautical fashion. Choose your favourites from among Bardot, off-shoulder, shirt-style, blouson, embroidered and peplum tops, to name a few. Team them up with skinny-fit jeans, skirts or palazzos. Kurtis and jeans make the perfect fusion-wear combination for the cool urbanite. Our grand sarees and lehenga-choli selections are perfect to make an impression at big social events such as weddings. Our salwar-kameez sets, kurtas and Patiala suits make comfortable options for regular wear.\nFashionable footwear - While clothes maketh the man, the type of footwear you wear reflects your personality. ",
+      "text_hash": "b682963bc1",
       "depth": 0,
       "stage": "public",
-      "requested_url": "https://denqr.onrender.com/",
-      "http_status": 503,
-      "diagnostics": {
-        "console_errors": [],
-        "page_errors": [],
-        "bad_responses": [
-          {
-            "url": "https://denqr.onrender.com/",
-            "status": 503,
-            "type": "document"
-          }
-        ],
-        "failed_requests": []
-      },
-      "page_type": "signup"
-    },
-    {
-      "url": "https://denqr.onrender.com/login",
-      "title": "Login page",
-      "lang": "en",
-      "headings": [
-        {
-          "level": "h3",
-          "text": "Welcom Back!"
-        }
-      ],
-      "links": [
-        {
-          "text": "Forgot Password?",
-          "href": "https://denqr.onrender.com/forgot_password",
-          "aria_label": "",
-          "target": "",
-          "dangerous": false
-        },
-        {
-          "text": "login",
-          "href": "https://denqr.onrender.com/staff_login",
-          "aria_label": "",
-          "target": "",
-          "dangerous": false
-        }
-      ],
-      "buttons": [
-        {
-          "text": "Login",
-          "aria_label": "",
-          "name": "",
-          "id": "",
-          "type": "submit",
-          "test_id": "",
-          "disabled": false,
-          "visible": true,
-          "dangerous": false
-        }
-      ],
-      "inputs": [
-        {
-          "tag": "input",
-          "type": "text",
-          "name": "username",
-          "id": "username",
-          "placeholder": "",
-          "aria_label": "",
-          "title": "",
-          "label": "Email/Phone:",
-          "test_id": "",
-          "required": false,
-          "visible": true
-        },
-        {
-          "tag": "input",
-          "type": "password",
-          "name": "password",
-          "id": "password",
-          "placeholder": "",
-          "aria_label": "",
-          "title": "",
-          "label": "Password:",
-          "test_id": "",
-          "required": false,
-          "visible": true
-        }
-      ],
-      "forms": [
-        {
-          "action": "https://denqr.onrender.com/login",
-          "method": "POST",
-          "id": "form-work",
-          "input_count": 2,
-          "has_password": true,
-          "has_email": false,
-          "text": "Welcom Back! Email/Phone: Password: Forgot Password? Login Login as kitchen staff ? login",
-          "type": "login"
-        }
-      ],
-      "images_missing_alt": 0,
-      "h1_count": 0,
-      "text": "Welcom Back!\nEmail/Phone:\nPassword:\nForgot Password?\nLogin\n\nLogin as kitchen staff ? login",
-      "text_hash": "d59ee43e6d",
-      "depth": 1,
-      "stage": "public",
-      "requested_url": "https://denqr.onrender.com/login",
-      "http_status": 200,
-      "diagnostics": {
-        "console_errors": [],
-        "page_errors": [],
-        "bad_responses": [],
-        "failed_requests": []
-      },
-      "page_type": "login"
-    },
-    {
-      "url": "https://denqr.onrender.com/Admin",
-      "title": "Create Account",
-      "lang": "en",
-      "headings": [
-        {
-          "level": "h2",
-          "text": "Create Account"
-        }
-      ],
-      "links": [
-        {
-          "text": "Sign in",
-          "href": "https://denqr.onrender.com/login",
-          "aria_label": "",
-          "target": "",
-          "dangerous": false
-        }
-      ],
-      "buttons": [
-        {
-          "text": "Continue",
-          "aria_label": "",
-          "name": "",
-          "id": "",
-          "type": "submit",
-          "test_id": "",
-          "disabled": false,
-          "visible": true,
-          "dangerous": false
-        }
-      ],
-      "inputs": [
-        {
-          "tag": "input",
-          "type": "text",
-          "name": "username",
-          "id": "username",
-          "placeholder": "",
-          "aria_label": "",
-          "title": "",
-          "label": "Full Name",
-          "test_id": "",
-          "required": true,
-          "visible": true
-        },
-        {
-          "tag": "input",
-          "type": "email",
-          "name": "email",
-          "id": "email",
-          "placeholder": "",
-          "aria_label": "",
-          "title": "",
-          "label": "Email",
-          "test_id": "",
-          "required": true,
-          "visible": true
-        },
-        {
-          "tag": "input",
-          "type": "password",
-          "name": "password",
-          "id": "password",
-          "placeholder": "",
-          "aria_label": "",
-          "title": "",
-          "label": "Password",
-          "test_id": "",
-          "required": true,
-          "visible": true
-        },
-        {
-          "tag": "input",
-          "type": "password",
-          "name": "confirm_password",
-          "id": "cpassword",
-          "placeholder": "",
-          "aria_label": "",
-          "title": "",
-          "label": "Confirm Password",
-          "test_id": "",
-          "required": true,
-          "visible": true
-        }
-      ],
-      "forms": [
-        {
-          "action": "https://denqr.onrender.com/Admin",
-          "method": "POST",
-          "id": "form-work",
-          "input_count": 4,
-          "has_password": true,
-          "has_email": true,
-          "text": "Create Account Full Name Email Password Confirm Password Continue Already have an account? Sign in",
-          "type": "signup"
-        }
-      ],
-      "images_missing_alt": 0,
-      "h1_count": 0,
-      "text": "Create Account\nFull Name\nEmail\nPassword\nConfirm Password\nContinue\n\nAlready have an account? Sign in",
-      "text_hash": "96a0ba3377",
-      "depth": 1,
-      "stage": "public",
-      "requested_url": "https://denqr.onrender.com/Admin",
-      "http_status": 200,
-      "diagnostics": {
-        "console_errors": [],
-        "page_errors": [
-          "document.getElementById(...).addEventListner is not a function"
-        ],
-        "bad_responses": [],
-        "failed_requests": []
-      },
-      "page_type": "signup"
-    },
-    {
-      "url": "https://denqr.onrender.com/privacy",
-      "title": "Privacy Policy",
-      "lang": "en",
-      "headings": [
-        {
-          "level": "h1",
-          "text": "Our Privacy Policy"
-        },
-        {
-          "level": "h2",
-          "text": "Introduction"
-        },
-        {
-          "level": "h2",
-          "text": "Information We Collect"
-        },
-        {
-          "level": "h2",
-          "text": "How We Use Your Information"
-        },
-        {
-          "level": "h2",
-          "text": "Data Protection"
-        },
-        {
-          "level": "h2",
-          "text": "Third-Party Sharing"
-        },
-        {
-          "level": "h2",
-          "text": "Your Rights"
-        }
-      ],
-      "links": [],
-      "buttons": [],
-      "inputs": [],
-      "forms": [],
-      "images_missing_alt": 0,
-      "h1_count": 1,
-      "text": "Our Privacy Policy\nIntroduction\n\nWe respect your privacy and are committed to safeguarding your personal information. This Privacy Policy explains what information we collect, why we collect it, and how it is used and protected.\n\nInformation We Collect\nPersonal Details: Name, phone number, email address, and delivery address provided during order placement.\nPayment Information: UPI IDs or payment references used for transactions (not stored by us directly).\nUsage Data: Device type, browser, and interactions on our platform to improve services.\nHow We Use Your Information\n\nYour information is used to:\n\nProcess and deliver your food orders.\nCommunicate important updates regarding your order or account.\nMaintain security and prevent fraud.\nEnhance user experience and platform functionality.\nData Protection\n\nWe use industry-standard security measures to protect your data. Payment transactions are encrypted, and sensitive financial data is not stored on our servers.\n\nThird-Party Sharing\n\nWe do not sell or trade personal data. Limited sharing may occur with trusted partners such as payment gateways or delivery staff, solely to complete your order.\n\nYour Rights\n\nYou may request access, correction, or deletion of your personal information by contacting our support team.\n\n© 2025 Den-qr. All rights reserved.",
-      "text_hash": "95dbbf75f6",
-      "depth": 1,
-      "stage": "public",
-      "requested_url": "https://denqr.onrender.com/privacy",
-      "http_status": 200,
-      "diagnostics": {
-        "console_errors": [],
-        "page_errors": [],
-        "bad_responses": [],
-        "failed_requests": []
-      },
-      "page_type": "general"
-    },
-    {
-      "url": "https://denqr.onrender.com/terms",
-      "title": "Terms & Conditions",
-      "lang": "en",
-      "headings": [
-        {
-          "level": "h1",
-          "text": "Terms & Conditions"
-        },
-        {
-          "level": "h2",
-          "text": "Acceptance of Terms"
-        },
-        {
-          "level": "h2",
-          "text": "Service Description"
-        },
-        {
-          "level": "h2",
-          "text": "User Responsibilities"
-        },
-        {
-          "level": "h2",
-          "text": "Payment Terms"
-        },
-        {
-          "level": "h2",
-          "text": "Restaurant Obligations"
-        },
-        {
-          "level": "h2",
-          "text": "Prohibited Activities"
-        },
-        {
-          "level": "h2",
-          "text": "Limitation of Liability"
-        },
-        {
-          "level": "h2",
-          "text": "Changes to Terms"
-        }
-      ],
-      "links": [],
-      "buttons": [],
-      "inputs": [],
-      "forms": [],
-      "images_missing_alt": 0,
-      "h1_count": 1,
-      "text": "Terms & Conditions\nAcceptance of Terms\n\nBy accessing or using our platform, you agree to comply with these Terms & Conditions. If you do not agree, you must discontinue use of our services.\n\nService Description\n\nWe provide an online food ordering and management platform that connects restaurants and customers. We facilitate the order and payment process but are not directly responsible for food preparation or delivery delays caused by restaurants.\n\nUser Responsibilities\nYou must provide accurate and complete information when placing orders.\nYou are responsible for safeguarding your account credentials and activity under your account.\nOrders once placed cannot be altered beyond the restaurant’s policy.\nPayment Terms\n\nAll payments are to be made through the supported payment methods (cash, UPI, or other available options). Orders are confirmed only after successful payment or confirmation of cash payment.\n\nRestaurant Obligations\n\nRestaurants are responsible for ensuring food quality, hygiene, timely preparation, and accurate menu details. We provide a platform but do not guarantee food quality or delivery timelines.\n\nProhibited Activities\nUsing the platform for fraudulent or illegal transactions.\nReverse-engineering, modifying, or misusing the software.\nSpamming, abusive language, or harassment of staff or other users.\nLimitation of Liability\n\nWe are not liable for indirect damages, including food quality issues, delays, or incorrect orders. Our liability is limited to the value of the order placed through the platform.\n\nChanges to Terms\n\nWe reserve the right to update these Terms at any time. Continued use of the platform implies acceptance of updated terms.\n\n© 2025 Den-qr. All rights reserved.",
-      "text_hash": "9d52969399",
-      "depth": 1,
-      "stage": "public",
-      "requested_url": "https://denqr.onrender.com/terms",
-      "http_status": 200,
-      "diagnostics": {
-        "console_errors": [],
-        "page_errors": [],
-        "bad_responses": [],
-        "failed_requests": []
-      },
-      "page_type": "general"
-    },
-    {
-      "url": "https://denqr.onrender.com/contact",
-      "title": "Contact Us",
-      "lang": "en",
-      "headings": [
-        {
-          "level": "h1",
-          "text": "Contact Us"
-        },
-        {
-          "level": "h2",
-          "text": "1. General Inquiries"
-        },
-        {
-          "level": "h2",
-          "text": "2. Subscription Support"
-        },
-        {
-          "level": "h2",
-          "text": "3. Mailing Address"
-        },
-        {
-          "level": "h2",
-          "text": "4. Feedback & Suggestions"
-        }
-      ],
-      "links": [
-        {
-          "text": "support@den-qr.com",
-          "href": "mailto:dengroupp@gmail.com",
-          "aria_label": "",
-          "target": "",
-          "dangerous": false
-        },
-        {
-          "text": "subscriptions@den-qr.com",
-          "href": "mailto:dengroupp@gmail.com",
-          "aria_label": "",
-          "target": "",
-          "dangerous": false
-        },
-        {
-          "text": "feedback@den-qr.com",
-          "href": "mailto:denqrorg.in@gmail.com",
-          "aria_label": "",
-          "target": "",
-          "dangerous": false
-        }
-      ],
-      "buttons": [],
-      "inputs": [],
-      "forms": [],
-      "images_missing_alt": 0,
-      "h1_count": 1,
-      "text": "Contact Us\n1. General Inquiries\n\nIf you have any questions, feedback, or require assistance, please feel free to contact us through any of the following methods:\n\nEmail: support@den-qr.com\nPhone: +91-7999178184\nWorking Hours: Monday to Friday, 9:00 AM – 6:00 PM\n2. Subscription Support\n\nFor inquiries regarding subscription plans, billing, or cancellations, please reach out to our subscription support team:\n\nEmail: subscriptions@den-qr.com\nPhone: +91-7999178184\n3. Mailing Address\n\nYou may also contact us via post at the following address:\n\n[Den Group ]\n[Umranala]\n[Chhindwara, Madhya Pradesh, 480107]\n[India]\n\n4. Feedback & Suggestions\n\nWe value your feedback and suggestions. Please email us at feedback@den-qr.com with your comments or recommendations.",
-      "text_hash": "a0e417e61d",
-      "depth": 1,
-      "stage": "public",
-      "requested_url": "https://denqr.onrender.com/contact",
-      "http_status": 200,
-      "diagnostics": {
-        "console_errors": [],
-        "page_errors": [],
-        "bad_responses": [],
-        "failed_requests": []
-      },
-      "page_type": "general"
-    },
-    {
-      "url": "https://denqr.onrender.com/refund",
-      "title": "Refund Policy | Food Ordering Platform",
-      "lang": "en",
-      "headings": [
-        {
-          "level": "h1",
-          "text": "Refund Policy"
-        },
-        {
-          "level": "h2",
-          "text": "1. Food Orders"
-        },
-        {
-          "level": "h2",
-          "text": "2. Subscription Plans"
-        },
-        {
-          "level": "h2",
-          "text": "3. Payment Method"
-        },
-        {
-          "level": "h2",
-          "text": "4. Contact for Refund Requests"
-        }
-      ],
-      "links": [
-        {
-          "text": "support@den-qr.com",
-          "href": "mailto:denqrorg.in@gmail.com",
-          "aria_label": "",
-          "target": "",
-          "dangerous": false
-        }
-      ],
-      "buttons": [],
-      "inputs": [],
-      "forms": [],
-      "images_missing_alt": 0,
-      "h1_count": 1,
-      "text": "Refund Policy\n\nAt Den-qr, customer satisfaction is our top priority. This Refund Policy outlines the conditions under which refunds may be issued for orders and subscription services.\n\n1. Food Orders\nOnce an order has been placed and confirmed, it cannot be cancelled.\nRefunds will only be considered in cases of:\nWrong items delivered.\nIncomplete or missing items.\nNon-delivery due to technical errors in the system.\nAll refund requests must be raised within 24 hours of the order time.\n2. Subscription Plans\nSubscription fees (Basic, Medium, Unlimited) are non-refundable once paid.\nIf technical issues prevent you from using your subscribed benefits, our support team will assist in resolving the issue.\nProrated refunds are not provided if you discontinue the service mid-term.\n3. Payment Method\n\nRefunds, if approved, will be processed through the same payment method (UPI, PhonePe, Google Pay, etc.) used at the time of purchase. Processing time may vary depending on the bank/payment provider.\n\n4. Contact for Refund Requests\n\nTo request a refund, please contact our support team at:\n\nEmail: support@den-qr.com\nPhone: +91-7999178184\n\n© 2025 Den-qr. All rights reserved.",
-      "text_hash": "e4aa5cbedf",
-      "depth": 1,
-      "stage": "public",
-      "requested_url": "https://denqr.onrender.com/refund",
-      "http_status": 200,
-      "diagnostics": {
-        "console_errors": [],
-        "page_errors": [],
-        "bad_responses": [],
-        "failed_requests": []
-      },
-      "page_type": "general"
-    },
-    {
-      "url": "https://denqr.onrender.com/shipping",
-      "title": "DenQr | Shipping and Delivery Policy",
-      "lang": "en",
-      "headings": [
-        {
-          "level": "h1",
-          "text": "DenQr Private"
-        },
-        {
-          "level": "h2",
-          "text": "Shipping & Delivery Policy"
-        },
-        {
-          "level": "h3",
-          "text": "International and Domestic Shipments"
-        },
-        {
-          "level": "h3",
-          "text": "Order Processing and Delivery"
-        },
-        {
-          "level": "h3",
-          "text": "Contact Information"
-        }
-      ],
-      "links": [
-        {
-          "text": "← Go Back Home",
-          "href": "https://denqr.onrender.com/",
-          "aria_label": "",
-          "target": "",
-          "dangerous": false
-        }
-      ],
-      "buttons": [],
-      "inputs": [],
-      "forms": [],
-      "images_missing_alt": 0,
-      "h1_count": 1,
-      "text": "DenQr Private\n← Go Back Home\nShipping & Delivery Policy\n\nLast updated on Oct 3rd 2025\n\nInternational and Domestic Shipments\n\nFor **International buyers**, orders are shipped and delivered through registered international courier companies and/or International speed post only.\n\nFor **domestic buyers**, orders are shipped through registered domestic courier companies and/or speed post only.\n\nOrder Processing and Delivery\n\nOrders are shipped within **Not Applicable** or as per the delivery date agreed at the time of order confirmation and delivery of the shipment subject to Courier Company/post office norms.\n\n**Our Team is not liable for any delay in delivery by the courier company/postal authorities** and only guarantees to hand over the consignment to the courier company or postal authorities within **Not Applicable** from the date of the order and payment or as per the delivery date agreed at the time of order confirmation.\n\nDelivery of all orders will be to the address provided by the buyer. Delivery of our **services** will be confirmed on your mail ID as specified during registration.\n\nContact Information\n\nFor any issues in utilizing our services, you may contact our helpdesk on:\nPhone: 7999178184\nEmail: dengrorg.in@gmail.com\n\nDISCLAIMER NOTE\n\nThe above content is created at Den Group's sole discretion. Razorpay shall not be liable for any content provided here and shall not be responsible for any claims and liability that may arise due to merchant's non-adherence to it.\n\n© 2025 DenQr. All rights reserved.",
-      "text_hash": "47343cd859",
-      "depth": 1,
-      "stage": "public",
-      "requested_url": "https://denqr.onrender.com/shipping",
+      "requested_url": "https://myntra.com/",
       "http_status": 200,
       "diagnostics": {
         "console_errors": [],
@@ -681,1278 +1544,9 @@
         "failed_requests": []
       },
       "page_type": "signup"
-    },
-    {
-      "url": "https://denqr.onrender.com/forgot_password",
-      "title": "Forgot Password",
-      "lang": "en",
-      "headings": [
-        {
-          "level": "h2",
-          "text": "Forgot Password"
-        }
-      ],
-      "links": [],
-      "buttons": [
-        {
-          "text": "Reset Password",
-          "aria_label": "",
-          "name": "",
-          "id": "",
-          "type": "submit",
-          "test_id": "",
-          "disabled": false,
-          "visible": true,
-          "dangerous": false
-        }
-      ],
-      "inputs": [
-        {
-          "tag": "input",
-          "type": "email",
-          "name": "email",
-          "id": "",
-          "placeholder": "",
-          "aria_label": "",
-          "title": "",
-          "label": "",
-          "test_id": "",
-          "required": true,
-          "visible": true
-        }
-      ],
-      "forms": [
-        {
-          "action": "https://denqr.onrender.com/forgot_password",
-          "method": "POST",
-          "id": "form-work",
-          "input_count": 1,
-          "has_password": false,
-          "has_email": true,
-          "text": "Email: Reset Password",
-          "type": "data_form"
-        }
-      ],
-      "images_missing_alt": 0,
-      "h1_count": 0,
-      "text": "Forgot Password\nEmail:\n Reset Password",
-      "text_hash": "eb9c281e1b",
-      "depth": 2,
-      "stage": "public",
-      "requested_url": "https://denqr.onrender.com/forgot_password",
-      "http_status": 200,
-      "diagnostics": {
-        "console_errors": [],
-        "page_errors": [],
-        "bad_responses": [],
-        "failed_requests": []
-      },
-      "page_type": "general"
-    },
-    {
-      "url": "https://denqr.onrender.com/staff_login",
-      "title": "Login page",
-      "lang": "en",
-      "headings": [
-        {
-          "level": "h3",
-          "text": "Please Login to your account."
-        }
-      ],
-      "links": [
-        {
-          "text": "login",
-          "href": "https://denqr.onrender.com/login",
-          "aria_label": "",
-          "target": "",
-          "dangerous": false
-        }
-      ],
-      "buttons": [
-        {
-          "text": "Login",
-          "aria_label": "",
-          "name": "",
-          "id": "",
-          "type": "submit",
-          "test_id": "",
-          "disabled": false,
-          "visible": true,
-          "dangerous": false
-        }
-      ],
-      "inputs": [
-        {
-          "tag": "input",
-          "type": "text",
-          "name": "name",
-          "id": "name",
-          "placeholder": "",
-          "aria_label": "",
-          "title": "",
-          "label": "Name:",
-          "test_id": "",
-          "required": false,
-          "visible": true
-        },
-        {
-          "tag": "input",
-          "type": "text",
-          "name": "role",
-          "id": "role",
-          "placeholder": "",
-          "aria_label": "",
-          "title": "",
-          "label": "",
-          "test_id": "",
-          "required": false,
-          "visible": true
-        },
-        {
-          "tag": "input",
-          "type": "number",
-          "name": "contact",
-          "id": "contact",
-          "placeholder": "",
-          "aria_label": "",
-          "title": "",
-          "label": "",
-          "test_id": "",
-          "required": false,
-          "visible": true
-        }
-      ],
-      "forms": [
-        {
-          "action": "https://denqr.onrender.com/staff_login",
-          "method": "POST",
-          "id": "form-work",
-          "input_count": 3,
-          "has_password": false,
-          "has_email": false,
-          "text": "Please Login to your account. Name: Role: phone: Login Login as Admin ? login",
-          "type": "login"
-        }
-      ],
-      "images_missing_alt": 0,
-      "h1_count": 0,
-      "text": "Please Login to your account.\nName:\nRole:\nphone:\nLogin\n\nLogin as Admin ? login",
-      "text_hash": "92dfa5f679",
-      "depth": 2,
-      "stage": "public",
-      "requested_url": "https://denqr.onrender.com/staff_login",
-      "http_status": 200,
-      "diagnostics": {
-        "console_errors": [],
-        "page_errors": [],
-        "bad_responses": [],
-        "failed_requests": []
-      },
-      "page_type": "login"
-    },
-    {
-      "url": "https://denqr.onrender.com/Analytics",
-      "title": "Lets Create, Generate and Work|den-qr",
-      "lang": "en",
-      "headings": [
-        {
-          "level": "h1",
-          "text": "Zehnaseeb"
-        },
-        {
-          "level": "h3",
-          "text": "📊 Last 7 Days Performance"
-        },
-        {
-          "level": "h3",
-          "text": "📦 Orders"
-        },
-        {
-          "level": "h3",
-          "text": "💰 Revenue"
-        },
-        {
-          "level": "h3",
-          "text": "🤝 Speciality"
-        },
-        {
-          "level": "h2",
-          "text": "Edit Menu Items"
-        },
-        {
-          "level": "h2",
-          "text": "Update Your Staff"
-        }
-      ],
-      "links": [
-        {
-          "text": "Home",
-          "href": "https://denqr.onrender.com/Analytics",
-          "aria_label": "",
-          "target": "",
-          "dangerous": false
-        },
-        {
-          "text": "Menu",
-          "href": "https://denqr.onrender.com/menu",
-          "aria_label": "",
-          "target": "",
-          "dangerous": false
-        },
-        {
-          "text": "Generate",
-          "href": "https://denqr.onrender.com/qr",
-          "aria_label": "",
-          "target": "",
-          "dangerous": false
-        },
-        {
-          "text": "Orders",
-          "href": "https://denqr.onrender.com/kitchen_dashboard",
-          "aria_label": "",
-          "target": "",
-          "dangerous": false
-        },
-        {
-          "text": "Team",
-          "href": "https://denqr.onrender.com/team",
-          "aria_label": "",
-          "target": "",
-          "dangerous": false
-        },
-        {
-          "text": "Settings",
-          "href": "https://denqr.onrender.com/settings",
-          "aria_label": "",
-          "target": "",
-          "dangerous": false
-        },
-        {
-          "text": "Upgrade",
-          "href": "https://denqr.onrender.com/payment",
-          "aria_label": "",
-          "target": "",
-          "dangerous": false
-        }
-      ],
-      "buttons": [
-        {
-          "text": "Remove",
-          "aria_label": "",
-          "name": "",
-          "id": "",
-          "type": "submit",
-          "test_id": "",
-          "disabled": false,
-          "visible": false,
-          "dangerous": false
-        },
-        {
-          "text": "Remove",
-          "aria_label": "",
-          "name": "",
-          "id": "",
-          "type": "submit",
-          "test_id": "",
-          "disabled": false,
-          "visible": false,
-          "dangerous": false
-        }
-      ],
-      "inputs": [
-        {
-          "tag": "input",
-          "type": "checkbox",
-          "name": "",
-          "id": "",
-          "placeholder": "",
-          "aria_label": "",
-          "title": "",
-          "label": "",
-          "test_id": "",
-          "required": false,
-          "visible": false
-        },
-        {
-          "tag": "input",
-          "type": "text",
-          "name": "name",
-          "id": "",
-          "placeholder": "",
-          "aria_label": "",
-          "title": "",
-          "label": "",
-          "test_id": "",
-          "required": true,
-          "visible": false
-        },
-        {
-          "tag": "input",
-          "type": "number",
-          "name": "price",
-          "id": "",
-          "placeholder": "",
-          "aria_label": "",
-          "title": "",
-          "label": "",
-          "test_id": "",
-          "required": true,
-          "visible": false
-        },
-        {
-          "tag": "input",
-          "type": "text",
-          "name": "name",
-          "id": "",
-          "placeholder": "",
-          "aria_label": "",
-          "title": "",
-          "label": "",
-          "test_id": "",
-          "required": true,
-          "visible": false
-        },
-        {
-          "tag": "input",
-          "type": "text",
-          "name": "role",
-          "id": "",
-          "placeholder": "",
-          "aria_label": "",
-          "title": "",
-          "label": "",
-          "test_id": "",
-          "required": true,
-          "visible": false
-        }
-      ],
-      "forms": [
-        {
-          "action": "https://denqr.onrender.com/delete_menu",
-          "method": "POST",
-          "id": "delete_menu",
-          "input_count": 2,
-          "has_password": false,
-          "has_email": false,
-          "text": "Name: Price: Remove",
-          "type": "data_form"
-        },
-        {
-          "action": "https://denqr.onrender.com/delete_staff",
-          "method": "POST",
-          "id": "",
-          "input_count": 2,
-          "has_password": false,
-          "has_email": false,
-          "text": "Name: Role: Remove",
-          "type": "data_form"
-        }
-      ],
-      "images_missing_alt": 0,
-      "h1_count": 1,
-      "text": "Home\nMenu\nGenerate\nOrders\nTeam\nSettings\nUpgrade\nZehnaseeb\n📊 Last 7 Days Performance\n\nTotal Orders: 0\nTotal Sales: ₹0.00\n\n📦 Orders\n💰 Revenue\n🤝 Speciality\n\nMenu does not created yet.\n\nNo team members added yet.",
-      "text_hash": "27a4b5a66e",
-      "depth": 0,
-      "stage": "authenticated",
-      "requested_url": "https://denqr.onrender.com/Analytics",
-      "http_status": null,
-      "diagnostics": {
-        "console_errors": [],
-        "page_errors": [],
-        "bad_responses": [],
-        "failed_requests": []
-      },
-      "page_type": "general"
-    },
-    {
-      "url": "https://denqr.onrender.com/menu",
-      "title": "Lets Create, Generate and Work|den-qr",
-      "lang": "en",
-      "headings": [
-        {
-          "level": "h1",
-          "text": "Zehnaseeb"
-        },
-        {
-          "level": "h2",
-          "text": "Add Your Restaurant/Hotel Menu"
-        }
-      ],
-      "links": [
-        {
-          "text": "Home",
-          "href": "https://denqr.onrender.com/Analytics",
-          "aria_label": "",
-          "target": "",
-          "dangerous": false
-        },
-        {
-          "text": "Menu",
-          "href": "https://denqr.onrender.com/menu",
-          "aria_label": "",
-          "target": "",
-          "dangerous": false
-        },
-        {
-          "text": "Generate",
-          "href": "https://denqr.onrender.com/qr",
-          "aria_label": "",
-          "target": "",
-          "dangerous": false
-        },
-        {
-          "text": "Orders",
-          "href": "https://denqr.onrender.com/kitchen_dashboard",
-          "aria_label": "",
-          "target": "",
-          "dangerous": false
-        },
-        {
-          "text": "Team",
-          "href": "https://denqr.onrender.com/team",
-          "aria_label": "",
-          "target": "",
-          "dangerous": false
-        },
-        {
-          "text": "Settings",
-          "href": "https://denqr.onrender.com/settings",
-          "aria_label": "",
-          "target": "",
-          "dangerous": false
-        },
-        {
-          "text": "Upgrade",
-          "href": "https://denqr.onrender.com/payment",
-          "aria_label": "",
-          "target": "",
-          "dangerous": false
-        }
-      ],
-      "buttons": [
-        {
-          "text": "Enter..",
-          "aria_label": "",
-          "name": "",
-          "id": "",
-          "type": "button",
-          "test_id": "",
-          "disabled": false,
-          "visible": true,
-          "dangerous": false
-        },
-        {
-          "text": "Add Items",
-          "aria_label": "",
-          "name": "",
-          "id": "submitBtn",
-          "type": "submit",
-          "test_id": "",
-          "disabled": false,
-          "visible": false,
-          "dangerous": false
-        }
-      ],
-      "inputs": [
-        {
-          "tag": "input",
-          "type": "checkbox",
-          "name": "",
-          "id": "",
-          "placeholder": "",
-          "aria_label": "",
-          "title": "",
-          "label": "",
-          "test_id": "",
-          "required": false,
-          "visible": false
-        },
-        {
-          "tag": "input",
-          "type": "number",
-          "name": "itemCount",
-          "id": "itemCount",
-          "placeholder": "",
-          "aria_label": "",
-          "title": "",
-          "label": "How many items do you want to add?",
-          "test_id": "",
-          "required": true,
-          "visible": true
-        }
-      ],
-      "forms": [
-        {
-          "action": "https://denqr.onrender.com/add_multiple_menu",
-          "method": "POST",
-          "id": "menuForm",
-          "input_count": 1,
-          "has_password": false,
-          "has_email": false,
-          "text": "How many items do you want to add? Enter..",
-          "type": "data_form"
-        }
-      ],
-      "images_missing_alt": 0,
-      "h1_count": 1,
-      "text": "Home\nMenu\nGenerate\nOrders\nTeam\nSettings\nUpgrade\nZehnaseeb\nAdd Your Restaurant/Hotel Menu\nHow many items do you want to add?\nEnter..",
-      "text_hash": "b26cfdbb12",
-      "depth": 1,
-      "stage": "authenticated",
-      "requested_url": "https://denqr.onrender.com/menu",
-      "http_status": 200,
-      "diagnostics": {
-        "console_errors": [
-          "Error fetching data: Error: Canvas is already in use. Chart with ID '0' must be destroyed before the canvas with ID 'salesOrdersChart' can be reused.\n    at new Tn (https://cdn.jsdelivr.net/npm/chart.js:13:90635)\n    at renderChart (https://denqr.onrender.com/Analytics:269:9)\n    at https://denqr.on"
-        ],
-        "page_errors": [],
-        "bad_responses": [],
-        "failed_requests": []
-      },
-      "page_type": "general"
-    },
-    {
-      "url": "https://denqr.onrender.com/qr",
-      "title": "Lets Create, Generate and Work|den-qr",
-      "lang": "en",
-      "headings": [
-        {
-          "level": "h1",
-          "text": "Zehnaseeb"
-        },
-        {
-          "level": "h2",
-          "text": "Number of tables:"
-        }
-      ],
-      "links": [
-        {
-          "text": "Home",
-          "href": "https://denqr.onrender.com/Analytics",
-          "aria_label": "",
-          "target": "",
-          "dangerous": false
-        },
-        {
-          "text": "Menu",
-          "href": "https://denqr.onrender.com/menu",
-          "aria_label": "",
-          "target": "",
-          "dangerous": false
-        },
-        {
-          "text": "Generate",
-          "href": "https://denqr.onrender.com/qr",
-          "aria_label": "",
-          "target": "",
-          "dangerous": false
-        },
-        {
-          "text": "Orders",
-          "href": "https://denqr.onrender.com/kitchen_dashboard",
-          "aria_label": "",
-          "target": "",
-          "dangerous": false
-        },
-        {
-          "text": "Team",
-          "href": "https://denqr.onrender.com/team",
-          "aria_label": "",
-          "target": "",
-          "dangerous": false
-        },
-        {
-          "text": "Settings",
-          "href": "https://denqr.onrender.com/settings",
-          "aria_label": "",
-          "target": "",
-          "dangerous": false
-        },
-        {
-          "text": "Upgrade",
-          "href": "https://denqr.onrender.com/payment",
-          "aria_label": "",
-          "target": "",
-          "dangerous": false
-        }
-      ],
-      "buttons": [
-        {
-          "text": "Generate",
-          "aria_label": "",
-          "name": "",
-          "id": "",
-          "type": "submit",
-          "test_id": "",
-          "disabled": false,
-          "visible": true,
-          "dangerous": false
-        }
-      ],
-      "inputs": [
-        {
-          "tag": "input",
-          "type": "checkbox",
-          "name": "",
-          "id": "",
-          "placeholder": "",
-          "aria_label": "",
-          "title": "",
-          "label": "",
-          "test_id": "",
-          "required": false,
-          "visible": false
-        },
-        {
-          "tag": "input",
-          "type": "number",
-          "name": "tableCount",
-          "id": "tableCount",
-          "placeholder": "1",
-          "aria_label": "",
-          "title": "",
-          "label": "",
-          "test_id": "",
-          "required": true,
-          "visible": true
-        }
-      ],
-      "forms": [
-        {
-          "action": "",
-          "method": "",
-          "id": "qrForm",
-          "input_count": 1,
-          "has_password": false,
-          "has_email": false,
-          "text": "Number of tables: Generate",
-          "type": "data_form"
-        }
-      ],
-      "images_missing_alt": 0,
-      "h1_count": 1,
-      "text": "Home\nMenu\nGenerate\nOrders\nTeam\nSettings\nUpgrade\nZehnaseeb\nNumber of tables:\n Generate",
-      "text_hash": "201a00d6c8",
-      "depth": 1,
-      "stage": "authenticated",
-      "requested_url": "https://denqr.onrender.com/qr",
-      "http_status": 200,
-      "diagnostics": {
-        "console_errors": [],
-        "page_errors": [],
-        "bad_responses": [],
-        "failed_requests": []
-      },
-      "page_type": "general"
-    },
-    {
-      "url": "https://denqr.onrender.com/kitchen_dashboard",
-      "title": "Kitchen Dashboard",
-      "lang": "en",
-      "headings": [
-        {
-          "level": "h1",
-          "text": "👨‍🍳 Kitchen Dashboard of Zehnaseeb"
-        }
-      ],
-      "links": [],
-      "buttons": [],
-      "inputs": [],
-      "forms": [],
-      "images_missing_alt": 0,
-      "h1_count": 1,
-      "text": "👨‍🍳 Kitchen Dashboard of Zehnaseeb\nLoading orders...",
-      "text_hash": "7b9ef69371",
-      "depth": 1,
-      "stage": "authenticated",
-      "requested_url": "https://denqr.onrender.com/kitchen_dashboard",
-      "http_status": 200,
-      "diagnostics": {
-        "console_errors": [],
-        "page_errors": [
-          "io is not defined"
-        ],
-        "bad_responses": [],
-        "failed_requests": []
-      },
-      "page_type": "dashboard"
-    },
-    {
-      "url": "https://denqr.onrender.com/team",
-      "title": "Lets Create, Generate and Work|den-qr",
-      "lang": "en",
-      "headings": [
-        {
-          "level": "h1",
-          "text": "Zehnaseeb"
-        },
-        {
-          "level": "h2",
-          "text": "Add Restaurant/Hotel Staff"
-        }
-      ],
-      "links": [
-        {
-          "text": "Home",
-          "href": "https://denqr.onrender.com/Analytics",
-          "aria_label": "",
-          "target": "",
-          "dangerous": false
-        },
-        {
-          "text": "Menu",
-          "href": "https://denqr.onrender.com/menu",
-          "aria_label": "",
-          "target": "",
-          "dangerous": false
-        },
-        {
-          "text": "Generate",
-          "href": "https://denqr.onrender.com/qr",
-          "aria_label": "",
-          "target": "",
-          "dangerous": false
-        },
-        {
-          "text": "Orders",
-          "href": "https://denqr.onrender.com/kitchen_dashboard",
-          "aria_label": "",
-          "target": "",
-          "dangerous": false
-        },
-        {
-          "text": "Team",
-          "href": "https://denqr.onrender.com/team",
-          "aria_label": "",
-          "target": "",
-          "dangerous": false
-        },
-        {
-          "text": "Settings",
-          "href": "https://denqr.onrender.com/settings",
-          "aria_label": "",
-          "target": "",
-          "dangerous": false
-        },
-        {
-          "text": "Upgrade",
-          "href": "https://denqr.onrender.com/payment",
-          "aria_label": "",
-          "target": "",
-          "dangerous": false
-        }
-      ],
-      "buttons": [
-        {
-          "text": "Enter..",
-          "aria_label": "",
-          "name": "",
-          "id": "",
-          "type": "button",
-          "test_id": "",
-          "disabled": false,
-          "visible": true,
-          "dangerous": false
-        },
-        {
-          "text": "Add Members",
-          "aria_label": "",
-          "name": "",
-          "id": "submitTeamBtn",
-          "type": "submit",
-          "test_id": "",
-          "disabled": false,
-          "visible": false,
-          "dangerous": false
-        }
-      ],
-      "inputs": [
-        {
-          "tag": "input",
-          "type": "checkbox",
-          "name": "",
-          "id": "",
-          "placeholder": "",
-          "aria_label": "",
-          "title": "",
-          "label": "",
-          "test_id": "",
-          "required": false,
-          "visible": false
-        },
-        {
-          "tag": "input",
-          "type": "number",
-          "name": "memberCount",
-          "id": "memberCount",
-          "placeholder": "",
-          "aria_label": "",
-          "title": "",
-          "label": "Number of Members:",
-          "test_id": "",
-          "required": true,
-          "visible": true
-        }
-      ],
-      "forms": [
-        {
-          "action": "https://denqr.onrender.com/add_multiple_team",
-          "method": "POST",
-          "id": "teamForm",
-          "input_count": 1,
-          "has_password": false,
-          "has_email": false,
-          "text": "Number of Members: Enter..",
-          "type": "data_form"
-        }
-      ],
-      "images_missing_alt": 0,
-      "h1_count": 1,
-      "text": "Home\nMenu\nGenerate\nOrders\nTeam\nSettings\nUpgrade\nZehnaseeb\nAdd Restaurant/Hotel Staff\nNumber of Members:\nEnter..",
-      "text_hash": "692bbe210c",
-      "depth": 1,
-      "stage": "authenticated",
-      "requested_url": "https://denqr.onrender.com/team",
-      "http_status": 200,
-      "diagnostics": {
-        "console_errors": [],
-        "page_errors": [],
-        "bad_responses": [],
-        "failed_requests": []
-      },
-      "page_type": "general"
-    },
-    {
-      "url": "https://denqr.onrender.com/settings",
-      "title": "Lets Create, Generate and Work|den-qr",
-      "lang": "en",
-      "headings": [
-        {
-          "level": "h1",
-          "text": "Zehnaseeb"
-        },
-        {
-          "level": "h3",
-          "text": "Payment Information"
-        },
-        {
-          "level": "h3",
-          "text": "Delete Your Account"
-        }
-      ],
-      "links": [
-        {
-          "text": "Home",
-          "href": "https://denqr.onrender.com/Analytics",
-          "aria_label": "",
-          "target": "",
-          "dangerous": false
-        },
-        {
-          "text": "Menu",
-          "href": "https://denqr.onrender.com/menu",
-          "aria_label": "",
-          "target": "",
-          "dangerous": false
-        },
-        {
-          "text": "Generate",
-          "href": "https://denqr.onrender.com/qr",
-          "aria_label": "",
-          "target": "",
-          "dangerous": false
-        },
-        {
-          "text": "Orders",
-          "href": "https://denqr.onrender.com/kitchen_dashboard",
-          "aria_label": "",
-          "target": "",
-          "dangerous": false
-        },
-        {
-          "text": "Team",
-          "href": "https://denqr.onrender.com/team",
-          "aria_label": "",
-          "target": "",
-          "dangerous": false
-        },
-        {
-          "text": "Settings",
-          "href": "https://denqr.onrender.com/settings",
-          "aria_label": "",
-          "target": "",
-          "dangerous": false
-        },
-        {
-          "text": "Upgrade",
-          "href": "https://denqr.onrender.com/payment",
-          "aria_label": "",
-          "target": "",
-          "dangerous": false
-        },
-        {
-          "text": "Logout",
-          "href": "https://denqr.onrender.com/logout",
-          "aria_label": "",
-          "target": "",
-          "dangerous": true
-        }
-      ],
-      "buttons": [
-        {
-          "text": "Account Information",
-          "aria_label": "",
-          "name": "",
-          "id": "accountToggle",
-          "type": "button",
-          "test_id": "",
-          "disabled": false,
-          "visible": true,
-          "dangerous": false
-        },
-        {
-          "text": "Recive Payment by UPI-ID",
-          "aria_label": "",
-          "name": "",
-          "id": "paymentToggle",
-          "type": "button",
-          "test_id": "",
-          "disabled": false,
-          "visible": true,
-          "dangerous": true
-        },
-        {
-          "text": "Submit UPI ID",
-          "aria_label": "",
-          "name": "",
-          "id": "",
-          "type": "submit",
-          "test_id": "",
-          "disabled": false,
-          "visible": true,
-          "dangerous": false
-        },
-        {
-          "text": "Update UPI-ID",
-          "aria_label": "",
-          "name": "",
-          "id": "clearToggle",
-          "type": "button",
-          "test_id": "",
-          "disabled": false,
-          "visible": true,
-          "dangerous": false
-        },
-        {
-          "text": "Update UPI ID",
-          "aria_label": "",
-          "name": "",
-          "id": "",
-          "type": "submit",
-          "test_id": "",
-          "disabled": false,
-          "visible": true,
-          "dangerous": false
-        },
-        {
-          "text": "Change Password",
-          "aria_label": "",
-          "name": "",
-          "id": "resetPassword",
-          "type": "button",
-          "test_id": "",
-          "disabled": false,
-          "visible": true,
-          "dangerous": false
-        },
-        {
-          "text": "Update",
-          "aria_label": "",
-          "name": "",
-          "id": "",
-          "type": "submit",
-          "test_id": "",
-          "disabled": false,
-          "visible": true,
-          "dangerous": false
-        },
-        {
-          "text": "Delete Account",
-          "aria_label": "",
-          "name": "",
-          "id": "",
-          "type": "submit",
-          "test_id": "",
-          "disabled": false,
-          "visible": true,
-          "dangerous": true
-        }
-      ],
-      "inputs": [
-        {
-          "tag": "input",
-          "type": "checkbox",
-          "name": "",
-          "id": "",
-          "placeholder": "",
-          "aria_label": "",
-          "title": "",
-          "label": "",
-          "test_id": "",
-          "required": false,
-          "visible": false
-        },
-        {
-          "tag": "input",
-          "type": "text",
-          "name": "upi_id",
-          "id": "",
-          "placeholder": "Enter Your UPI ID",
-          "aria_label": "",
-          "title": "",
-          "label": "",
-          "test_id": "",
-          "required": true,
-          "visible": true
-        },
-        {
-          "tag": "input",
-          "type": "text",
-          "name": "upi_id",
-          "id": "",
-          "placeholder": "Enter Your UPI ID",
-          "aria_label": "",
-          "title": "",
-          "label": "",
-          "test_id": "",
-          "required": true,
-          "visible": true
-        },
-        {
-          "tag": "input",
-          "type": "password",
-          "name": "current_password",
-          "id": "",
-          "placeholder": "Current Password",
-          "aria_label": "",
-          "title": "",
-          "label": "",
-          "test_id": "",
-          "required": true,
-          "visible": true
-        },
-        {
-          "tag": "input",
-          "type": "password",
-          "name": "new_password",
-          "id": "",
-          "placeholder": "New Password",
-          "aria_label": "",
-          "title": "",
-          "label": "",
-          "test_id": "",
-          "required": true,
-          "visible": true
-        },
-        {
-          "tag": "input",
-          "type": "password",
-          "name": "confirm_password",
-          "id": "",
-          "placeholder": "Confirm Password",
-          "aria_label": "",
-          "title": "",
-          "label": "",
-          "test_id": "",
-          "required": true,
-          "visible": true
-        }
-      ],
-      "forms": [
-        {
-          "action": "https://denqr.onrender.com/Account_info",
-          "method": "POST",
-          "id": "accountPanel",
-          "input_count": 0,
-          "has_password": false,
-          "has_email": false,
-          "text": "Admin ID : 1 Restaurant Id : 1 Plan Name: trail Expiry Date: 2026-11-10 13:28:42.424829",
-          "type": "unknown"
-        },
-        {
-          "action": "https://denqr.onrender.com/get_upi",
-          "method": "POST",
-          "id": "paymentPanel",
-          "input_count": 1,
-          "has_password": false,
-          "has_email": false,
-          "text": "Submit UPI ID",
-          "type": "data_form"
-        },
-        {
-          "action": "https://denqr.onrender.com/update_upi",
-          "method": "POST",
-          "id": "clearPanel",
-          "input_count": 1,
-          "has_password": false,
-          "has_email": false,
-          "text": "Update UPI ID",
-          "type": "data_form"
-        },
-        {
-          "action": "https://denqr.onrender.com/change_password",
-          "method": "POST",
-          "id": "resetPanel",
-          "input_count": 3,
-          "has_password": true,
-          "has_email": false,
-          "text": "Update",
-          "type": "data_form"
-        },
-        {
-          "action": "https://denqr.onrender.com/settings",
-          "method": "POST",
-          "id": "",
-          "input_count": 0,
-          "has_password": false,
-          "has_email": false,
-          "text": "Delete Account",
-          "type": "unknown"
-        }
-      ],
-      "images_missing_alt": 0,
-      "h1_count": 1,
-      "text": "Home\nMenu\nGenerate\nOrders\nTeam\nSettings\nUpgrade\nZehnaseeb\nAccount Information\nAdmin ID : 1\nRestaurant Id : 1\nPlan Name: trail\nExpiry Date: 2026-11-10 13:28:42.424829\nPayment Information\nRecive Payment by UPI-ID\n Submit UPI ID\nUpdate UPI-ID\n Update UPI ID\nChange Password\n   Update\nLogout\nDelete Your Account\n\nThis action is permanent and cannot be undone. Deleting your account will erase all of your , Branch information, Menu, Payment details Permanently.\n\nDelete Account",
-      "text_hash": "fa7e27e150",
-      "depth": 1,
-      "stage": "authenticated",
-      "requested_url": "https://denqr.onrender.com/settings",
-      "http_status": 200,
-      "diagnostics": {
-        "console_errors": [],
-        "page_errors": [],
-        "bad_responses": [],
-        "failed_requests": []
-      },
-      "page_type": "general"
-    },
-    {
-      "url": "https://denqr.onrender.com/payment",
-      "title": "Subscription Plans - OrderEase",
-      "lang": "en",
-      "headings": [
-        {
-          "level": "h1",
-          "text": "Your Journey Begins Here: Choose Your Plan"
-        },
-        {
-          "level": "h2",
-          "text": "You have to enter email/phone using which you have been created account on DenQr otherwise you are not able to get Subscription"
-        },
-        {
-          "level": "h2",
-          "text": "आपको वह ईमेल/फ़ोन नंबर दर्ज करना होगा जिसके ज़रिए आपने DenQr पर खाता बनाया है, अन्यथा आप सदस्यता प्राप्त नहीं कर पाएँगे"
-        },
-        {
-          "level": "h2",
-          "text": "Basic"
-        },
-        {
-          "level": "h2",
-          "text": "Moderate"
-        },
-        {
-          "level": "h2",
-          "text": "Premium"
-        },
-        {
-          "level": "h2",
-          "text": "Yearly/Premium Plan"
-        }
-      ],
-      "links": [],
-      "buttons": [
-        {
-          "text": "Subscribe Now",
-          "aria_label": "",
-          "name": "",
-          "id": "basic",
-          "type": "",
-          "test_id": "",
-          "disabled": false,
-          "visible": true,
-          "dangerous": false
-        },
-        {
-          "text": "Subscribe Now",
-          "aria_label": "",
-          "name": "",
-          "id": "",
-          "type": "",
-          "test_id": "",
-          "disabled": false,
-          "visible": true,
-          "dangerous": false
-        },
-        {
-          "text": "Subscribe Now",
-          "aria_label": "",
-          "name": "",
-          "id": "",
-          "type": "",
-          "test_id": "",
-          "disabled": false,
-          "visible": true,
-          "dangerous": false
-        },
-        {
-          "text": "Subscribe Now",
-          "aria_label": "",
-          "name": "",
-          "id": "",
-          "type": "",
-          "test_id": "",
-          "disabled": false,
-          "visible": true,
-          "dangerous": false
-        }
-      ],
-      "inputs": [],
-      "forms": [],
-      "images_missing_alt": 0,
-      "h1_count": 1,
-      "text": "Your Journey Begins Here: Choose Your Plan\nYou have to enter email/phone using which you have been created account on DenQr otherwise you are not able to get Subscription\nआपको वह ईमेल/फ़ोन नंबर दर्ज करना होगा जिसके ज़रिए आपने DenQr पर खाता बनाया है, अन्यथा आप सदस्यता प्राप्त नहीं कर पाएँगे\nBasic\n\n₹999\n\n30 Days Validity\n\nUpto 6 Tables QR\nBasic Analytics Access\nPriority Support\nCustom Branding\nAutomatic Reciept Generation\nLive Status Updation\nSubscribe Now\nModerate\n\n₹1999\n\n30 Days Validity\n\nUpto 12 Tables QR\nAdvanced Analytics\nPriority Support\nCustom Branding\nAutomatic Reciept Generation\nLive Status Updation\nSubscribe Now\nPremium\n\n₹2999\n\n30 Days Validity\n\nUnlimited Tables QR\nAdvanced Analytics\nPriority Support\nCustom Branding\nAutomatic Reciept Generation\nLive Status Updation\nSubscribe Now\nYearly/Premium Plan\n\n₹24001\n\n1 Year Validity\n\nUnlimited Tables QR\nAdvanced Analytics\nPriority Support\nCustom Branding\nAutomatic Reciept Generation\nLive Status Updation\nSubscribe Now",
-      "text_hash": "47ec2f9fd8",
-      "depth": 1,
-      "stage": "authenticated",
-      "requested_url": "https://denqr.onrender.com/payment",
-      "http_status": 200,
-      "diagnostics": {
-        "console_errors": [],
-        "page_errors": [],
-        "bad_responses": [],
-        "failed_requests": []
-      },
-      "page_type": "general"
     }
   ],
   "visited_urls": [
-    "https://denqr.onrender.com/",
-    "https://denqr.onrender.com/login",
-    "https://denqr.onrender.com/Admin",
-    "https://denqr.onrender.com/privacy",
-    "https://denqr.onrender.com/terms",
-    "https://denqr.onrender.com/contact",
-    "https://denqr.onrender.com/refund",
-    "https://denqr.onrender.com/shipping",
-    "https://denqr.onrender.com/forgot_password",
-    "https://denqr.onrender.com/staff_login",
-    "https://denqr.onrender.com/Analytics",
-    "https://denqr.onrender.com/menu",
-    "https://denqr.onrender.com/qr",
-    "https://denqr.onrender.com/kitchen_dashboard",
-    "https://denqr.onrender.com/team",
-    "https://denqr.onrender.com/settings",
-    "https://denqr.onrender.com/payment"
+    "https://www.myntra.com/"
   ]
 }

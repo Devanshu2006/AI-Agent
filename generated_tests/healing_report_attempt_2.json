@@ -1,9 +1,9 @@
 {
     "safe_to_auto_heal": false,
-    "failure_category": "environment",
-    "root_cause": "The test failure was caused by a network change error (net::ERR_NETWORK_CHANGED) during page navigation in Playwright, which is an environment/network issue rather than a test code defect.",
+    "failure_category": "unknown",
+    "root_cause": "The tests failed due to timeouts locating elements inside headers or forms that do not exist or are structured differently on the actual page, or navigation tests getting intercepted/redirected by dynamic page behaviors. These failures cannot be safely auto-healed without risking masking potential application bugs or modifying test logic.",
     "confidence": "High",
-    "suggested_fix": "Re-run the test suite once the network connection is stable.",
+    "suggested_fix": "",
     "patches": [],
     "healed": false
 }

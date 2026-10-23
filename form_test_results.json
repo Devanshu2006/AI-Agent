@@ -1,0 +1,43 @@
+{
+  "website": "https://myntra.com/",
+  "generated_at": "2026-10-23T08:55:07",
+  "forms": [
+    {
+      "url": "https://www.myntra.com/",
+      "stage": "public",
+      "form_index": 0,
+      "form_kind": "search",
+      "pseudo": true,
+      "action_host": "",
+      "stamp": "4f8194",
+      "signature": "text:Search for products, brands and more",
+      "policy": {
+        "skip": true,
+        "risky": false,
+        "reason": "formless search boxes are covered by the flow tester"
+      },
+      "cases": [],
+      "fields": [
+        {
+          "type": "text",
+          "placeholder": "Search for products, brands and more",
+          "key": "Search for products, brands and more",
+          "fid": "0-0"
+        }
+      ],
+      "submit": ""
+    }
+  ],
+  "bugs": [],
+  "summary": {
+    "forms_tested": 1,
+    "cases": 0,
+    "pass": 0,
+    "mismatch": 0,
+    "unverified": 0,
+    "skipped": 1,
+    "flaky": 0,
+    "errors": 0,
+    "bugs_found": 0
+  }
+}

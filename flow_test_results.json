@@ -1,0 +1,1908 @@
+{
+  "website": "https://myntra.com/",
+  "generated_at": "2026-10-23T08:55:15",
+  "catalog": {
+    "search": true,
+    "search_opener": false,
+    "nav_texts": [
+      "MEN",
+      "WOMEN",
+      "KIDS",
+      "HOME",
+      "BEAUTY",
+      "GENZ",
+      "STUDIO"
+    ],
+    "product_count": 0,
+    "product_names": [],
+    "sort": false,
+    "auth": [
+      {
+        "which": "cart",
+        "text": "",
+        "href": "https://www.myntra.com/trolley-bags?plaEnabled=false&rf=Discount%20Range%3A30.0_100.0_30.0%20TO%20100.0"
+      },
+      {
+        "which": "orders",
+        "text": "Track Orders",
+        "href": "https://www.myntra.com/my/orders"
+      }
+    ],
+    "add_to_cart": false
+  },
+  "flows": [
+    {
+      "id": "search_valid",
+      "name": "Search for a product",
+      "description": "Searching for 'men' must list matching products",
+      "flow": {
+        "id": "search_valid",
+        "name": "Search for a product",
+        "description": "Searching for 'men' must list matching products",
+        "start_url": "https://myntra.com/",
+        "term": "men",
+        "gates": {
+          "cart": false
+        },
+        "steps": [
+          {
+            "action": "goto"
+          },
+          {
+            "action": "search",
+            "value": "men",
+            "checks": [
+              "results_nonempty"
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "runs": 1,
+      "reproduced": 0,
+      "result": {
+        "verdict": "PASS",
+        "failed": null,
+        "reviews": [],
+        "summary": "search_valid: PASS",
+        "steps": [
+          {
+            "index": 0,
+            "action": "goto",
+            "note": "",
+            "target": "",
+            "checks": [
+              {
+                "type": "no_server_error",
+                "ok": true,
+                "evidence": "no 5xx responses, no error text",
+                "soft": false
+              },
+              {
+                "type": "not_blank",
+                "ok": true,
+                "evidence": "page text length 13922",
+                "soft": false
+              }
+            ],
+            "status": "PASS",
+            "url_before": "about:blank",
+            "url_after": "https://www.myntra.com/",
+            "page_errors": 0
+          },
+          {
+            "index": 1,
+            "action": "search",
+            "note": "",
+            "target": "search box",
+            "checks": [
+              {
+                "type": "no_server_error",
+                "ok": true,
+                "evidence": "no 5xx responses, no error text",
+                "soft": false
+              },
+              {
+                "type": "results_nonempty",
+                "ok": true,
+                "evidence": "11 product card(s): 4.6 | 9.3k AD CeraVe Foaming Cleanser - 88 ml Rs. 503Rs. 559(10% OFF); 4.4 | 189 AD GHAR SOAPS Magic De-Tan Combo Rs. 449Rs. 499(10% OFF); 4.6 | 64.4k",
+                "soft": false
+              },
+              {
+                "type": "not_blank",
+                "ok": true,
+                "evidence": "page text length 9548",
+                "soft": false
+              }
+            ],
+            "status": "PASS",
+            "url_before": "https://www.myntra.com/",
+            "url_after": "https://www.myntra.com/men?rawQuery=men",
+            "page_errors": 0
+          }
+        ],
+        "page_errors": 0
+      }
+    },
+    {
+      "id": "search_nonsense",
+      "name": "Search for gibberish",
+      "description": "A nonsense search must show 'no results' (or nothing) and must not crash",
+      "flow": {
+        "id": "search_nonsense",
+        "name": "Search for gibberish",
+        "description": "A nonsense search must show 'no results' (or nothing) and must not crash",
+        "start_url": "https://myntra.com/",
+        "term": "zqxjvk6525",
+        "gates": {
+          "cart": false
+        },
+        "steps": [
+          {
+            "action": "goto"
+          },
+          {
+            "action": "search",
+            "value": "zqxjvk6525",
+            "checks": [
+              "results_empty_or_message"
+            ]
+          }
+        ]
+      },
+      "verdict": "REVIEW",
+      "runs": 1,
+      "reproduced": 0,
+      "result": {
+        "verdict": "REVIEW",
+        "failed": null,
+        "reviews": [
+          {
+            "step": 1,
+            "check": "results_empty_or_message",
+            "evidence": "11 product card(s), 'no results' message shown: False"
+          }
+        ],
+        "summary": "search_nonsense: REVIEW - needs a human look: step 2 'results_empty_or_message': 11 product card(s), 'no results' message shown: False",
+        "steps": [
+          {
+            "index": 0,
+            "action": "goto",
+            "note": "",
+            "target": "",
+            "checks": [
+              {
+                "type": "no_server_error",
+                "ok": true,
+                "evidence": "no 5xx responses, no error text",
+                "soft": false
+              },
+              {
+                "type": "not_blank",
+                "ok": true,
+                "evidence": "page text length 13922",
+                "soft": false
+              }
+            ],
+            "status": "PASS",
+            "url_before": "about:blank",
+            "url_after": "https://www.myntra.com/",
+            "page_errors": 0
+          },
+          {
+            "index": 1,
+            "action": "search",
+            "note": "",
+            "target": "search box",
+            "checks": [
+              {
+                "type": "no_server_error",
+                "ok": true,
+                "evidence": "no 5xx responses, no error text",
+                "soft": false
+              },
+              {
+                "type": "results_empty_or_message",
+                "ok": false,
+                "evidence": "11 product card(s), 'no results' message shown: False",
+                "soft": true
+              },
+              {
+                "type": "not_blank",
+                "ok": true,
+                "evidence": "page text length 4142",
+                "soft": false
+              }
+            ],
+            "status": "REVIEW",
+            "url_before": "https://www.myntra.com/",
+            "url_after": "https://www.myntra.com/zqxjvk6525?rawQuery=zqxjvk6525",
+            "page_errors": 0
+          }
+        ],
+        "page_errors": 0
+      }
+    },
+    {
+      "id": "search_empty",
+      "name": "Submit an empty search",
+      "description": "An empty search must not crash the site",
+      "flow": {
+        "id": "search_empty",
+        "name": "Submit an empty search",
+        "description": "An empty search must not crash the site",
+        "start_url": "https://myntra.com/",
+        "term": "",
+        "gates": {
+          "cart": false
+        },
+        "steps": [
+          {
+            "action": "goto"
+          },
+          {
+            "action": "search",
+            "value": ""
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "runs": 1,
+      "reproduced": 0,
+      "result": {
+        "verdict": "PASS",
+        "failed": null,
+        "reviews": [],
+        "summary": "search_empty: PASS",
+        "steps": [
+          {
+            "index": 0,
+            "action": "goto",
+            "note": "",
+            "target": "",
+            "checks": [
+              {
+                "type": "no_server_error",
+                "ok": true,
+                "evidence": "no 5xx responses, no error text",
+                "soft": false
+              },
+              {
+                "type": "not_blank",
+                "ok": true,
+                "evidence": "page text length 13922",
+                "soft": false
+              }
+            ],
+            "status": "PASS",
+            "url_before": "about:blank",
+            "url_after": "https://www.myntra.com/",
+            "page_errors": 0
+          },
+          {
+            "index": 1,
+            "action": "search",
+            "note": "",
+            "target": "search box",
+            "checks": [
+              {
+                "type": "no_server_error",
+                "ok": true,
+                "evidence": "no 5xx responses, no error text",
+                "soft": false
+              },
+              {
+                "type": "not_blank",
+                "ok": true,
+                "evidence": "page text length 13922",
+                "soft": false
+              }
+            ],
+            "status": "PASS",
+            "url_before": "https://www.myntra.com/",
+            "url_after": "https://www.myntra.com/",
+            "page_errors": 0
+          }
+        ],
+        "page_errors": 0
+      }
+    },
+    {
+      "id": "listing_sort",
+      "name": "Sort search results",
+      "description": "Choosing a different sort order must re-order the list and keep results",
+      "flow": {
+        "id": "listing_sort",
+        "name": "Sort search results",
+        "description": "Choosing a different sort order must re-order the list and keep results",
+        "start_url": "https://myntra.com/",
+        "term": "men",
+        "gates": {
+          "cart": false
+        },
+        "steps": [
+          {
+            "action": "goto"
+          },
+          {
+            "action": "search",
+            "value": "men",
+            "checks": [
+              "results_nonempty"
+            ]
+          },
+          {
+            "action": "choose_sort",
+            "checks": [
+              "list_changed",
+              "results_nonempty"
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "runs": 1,
+      "reproduced": 0,
+      "result": {
+        "verdict": "PASS",
+        "failed": null,
+        "reviews": [],
+        "summary": "listing_sort: PASS",
+        "steps": [
+          {
+            "index": 0,
+            "action": "goto",
+            "note": "",
+            "target": "",
+            "checks": [
+              {
+                "type": "no_server_error",
+                "ok": true,
+                "evidence": "no 5xx responses, no error text",
+                "soft": false
+              },
+              {
+                "type": "not_blank",
+                "ok": true,
+                "evidence": "page text length 13922",
+                "soft": false
+              }
+            ],
+            "status": "PASS",
+            "url_before": "about:blank",
+            "url_after": "https://www.myntra.com/",
+            "page_errors": 0
+          },
+          {
+            "index": 1,
+            "action": "search",
+            "note": "",
+            "target": "search box",
+            "checks": [
+              {
+                "type": "no_server_error",
+                "ok": true,
+                "evidence": "no 5xx responses, no error text",
+                "soft": false
+              },
+              {
+                "type": "results_nonempty",
+                "ok": true,
+                "evidence": "11 product card(s): 4.6 | 9.3k AD CeraVe Foaming Cleanser - 88 ml Rs. 503Rs. 559(10% OFF); 4.4 | 189 AD GHAR SOAPS Magic De-Tan Combo Rs. 449Rs. 499(10% OFF); 4.6 | 64.4k",
+                "soft": false
+              },
+              {
+                "type": "not_blank",
+                "ok": true,
+                "evidence": "page text length 9548",
+                "soft": false
+              }
+            ],
+            "status": "PASS",
+            "url_before": "https://www.myntra.com/",
+            "url_after": "https://www.myntra.com/men?rawQuery=men",
+            "page_errors": 0
+          },
+          {
+            "index": 2,
+            "action": "choose_sort",
+            "note": "",
+            "target": "sort: Price: High to Low",
+            "checks": [
+              {
+                "type": "no_server_error",
+                "ok": true,
+                "evidence": "no 5xx responses, no error text",
+                "soft": false
+              },
+              {
+                "type": "list_changed",
+                "ok": true,
+                "evidence": "11 card(s); list changed: True",
+                "soft": true
+              },
+              {
+                "type": "results_nonempty",
+                "ok": true,
+                "evidence": "11 product card(s): SWAROVSKI Textured Showpiece Rs. 2800000; SWAROVSKI Textured Showpiece Rs. 2100000; NEW Brunello Cucinelli Adults-Men-Jackets Rs. 1628190Rs. 1915500(1",
+                "soft": false
+              }
+            ],
+            "status": "PASS",
+            "url_before": "https://www.myntra.com/men?rawQuery=men",
+            "url_after": "https://www.myntra.com/men?sort=price_desc&rawQuery=men",
+            "page_errors": 0
+          }
+        ],
+        "page_errors": 0
+      }
+    },
+    {
+      "id": "product_page",
+      "name": "Open a product",
+      "description": "Opening the first result must show a product page with heading, price, image",
+      "flow": {
+        "id": "product_page",
+        "name": "Open a product",
+        "description": "Opening the first result must show a product page with heading, price, image",
+        "start_url": "https://myntra.com/",
+        "term": "men",
+        "gates": {
+          "cart": false
+        },
+        "steps": [
+          {
+            "action": "goto"
+          },
+          {
+            "action": "search",
+            "value": "men",
+            "checks": [
+              "results_nonempty"
+            ]
+          },
+          {
+            "action": "click",
+            "target": {
+              "kind": "product_link",
+              "index": 0
+            },
+            "checks": [
+              "product_page",
+              "has_heading"
+            ]
+          }
+        ]
+      },
+      "verdict": "REVIEW",
+      "runs": 1,
+      "reproduced": 0,
+      "result": {
+        "verdict": "REVIEW",
+        "failed": null,
+        "reviews": [
+          {
+            "step": 2,
+            "check": "product_page",
+            "evidence": "product page is missing: image"
+          }
+        ],
+        "summary": "product_page: REVIEW - needs a human look: step 3 'product_page': product page is missing: image",
+        "steps": [
+          {
+            "index": 0,
+            "action": "goto",
+            "note": "",
+            "target": "",
+            "checks": [
+              {
+                "type": "no_server_error",
+                "ok": true,
+                "evidence": "no 5xx responses, no error text",
+                "soft": false
+              },
+              {
+                "type": "not_blank",
+                "ok": true,
+                "evidence": "page text length 13922",
+                "soft": false
+              }
+            ],
+            "status": "PASS",
+            "url_before": "about:blank",
+            "url_after": "https://www.myntra.com/",
+            "page_errors": 0
+          },
+          {
+            "index": 1,
+            "action": "search",
+            "note": "",
+            "target": "search box",
+            "checks": [
+              {
+                "type": "no_server_error",
+                "ok": true,
+                "evidence": "no 5xx responses, no error text",
+                "soft": false
+              },
+              {
+                "type": "results_nonempty",
+                "ok": true,
+                "evidence": "11 product card(s): 4.6 | 9.3k AD CeraVe Foaming Cleanser - 88 ml Rs. 503Rs. 559(10% OFF); 4.4 | 189 AD GHAR SOAPS Magic De-Tan Combo Rs. 449Rs. 499(10% OFF); 4.6 | 64.4k",
+                "soft": false
+              },
+              {
+                "type": "not_blank",
+                "ok": true,
+                "evidence": "page text length 9548",
+                "soft": false
+              }
+            ],
+            "status": "PASS",
+            "url_before": "https://www.myntra.com/",
+            "url_after": "https://www.myntra.com/men?rawQuery=men",
+            "page_errors": 0
+          },
+          {
+            "index": 2,
+            "action": "click",
+            "note": "",
+            "target": "product_link 'CeraVe Foaming Cleanser - 88 ml Rs. 503Rs. 559(10% OFF)' -> https://www.myntra.com/face-wash-and-cleanser/cerave/cerave-foaming-cleanser-for",
+            "checks": [
+              {
+                "type": "no_server_error",
+                "ok": true,
+                "evidence": "no 5xx responses, no error text",
+                "soft": false
+              },
+              {
+                "type": "product_page",
+                "ok": false,
+                "evidence": "product page is missing: image",
+                "soft": true
+              },
+              {
+                "type": "has_heading",
+                "ok": true,
+                "evidence": "headings ['CeraVe', 'Foaming Cleanser For Oily Skin with Hyaluronic Acid & Niacinamide - 88ml'], title 'Buy CeraVe Foaming Cleanser For Oily Skin With Hyaluronic Ac'",
+                "soft": true
+              },
+              {
+                "type": "not_blank",
+                "ok": true,
+                "evidence": "page text length 9318",
+                "soft": false
+              }
+            ],
+            "status": "REVIEW",
+            "url_before": "https://www.myntra.com/men?rawQuery=men",
+            "url_after": "https://www.myntra.com/face-wash-and-cleanser/cerave/cerave-foaming-cleanser-for-oily-skin-with-hyaluronic-acid--niacinamide---88ml/32464723/buy",
+            "page_errors": 0
+          }
+        ],
+        "page_errors": 0
+      }
+    },
+    {
+      "id": "add_to_bag",
+      "name": "Add a product to the bag",
+      "description": "Choosing a size and pressing 'add to bag' must visibly update the bag",
+      "flow": {
+        "id": "add_to_bag",
+        "name": "Add a product to the bag",
+        "description": "Choosing a size and pressing 'add to bag' must visibly update the bag",
+        "start_url": "https://myntra.com/",
+        "term": "men",
+        "gates": {
+          "cart": false
+        },
+        "steps": [
+          {
+            "action": "goto"
+          },
+          {
+            "action": "search",
+            "value": "men",
+            "checks": [
+              "results_nonempty"
+            ]
+          },
+          {
+            "action": "click",
+            "target": {
+              "kind": "product_link",
+              "index": 0
+            },
+            "checks": [
+              "product_page",
+              "has_heading"
+            ]
+          },
+          {
+            "action": "choose_variant",
+            "optional": true
+          },
+          {
+            "action": "click",
+            "target": {
+              "kind": "add_to_cart"
+            },
+            "gate": "cart",
+            "checks": [
+              "cart_changed"
+            ]
+          }
+        ]
+      },
+      "verdict": "GATED",
+      "runs": 1,
+      "reproduced": 0,
+      "result": {
+        "verdict": "GATED",
+        "failed": null,
+        "reviews": [
+          {
+            "step": 2,
+            "check": "product_page",
+            "evidence": "product page is missing: image"
+          }
+        ],
+        "summary": "add_to_bag: GATED at step 5 (click): skipped: 'cart' steps are not allowed on this host",
+        "steps": [
+          {
+            "index": 0,
+            "action": "goto",
+            "note": "",
+            "target": "",
+            "checks": [
+              {
+                "type": "no_server_error",
+                "ok": true,
+                "evidence": "no 5xx responses, no error text",
+                "soft": false
+              },
+              {
+                "type": "not_blank",
+                "ok": true,
+                "evidence": "page text length 13922",
+                "soft": false
+              }
+            ],
+            "status": "PASS",
+            "url_before": "about:blank",
+            "url_after": "https://www.myntra.com/",
+            "page_errors": 0
+          },
+          {
+            "index": 1,
+            "action": "search",
+            "note": "",
+            "target": "search box",
+            "checks": [
+              {
+                "type": "no_server_error",
+                "ok": true,
+                "evidence": "no 5xx responses, no error text",
+                "soft": false
+              },
+              {
+                "type": "results_nonempty",
+                "ok": true,
+                "evidence": "11 product card(s): 4.6 | 9.3k AD CeraVe Foaming Cleanser - 88 ml Rs. 503Rs. 559(10% OFF); 4.4 | 189 AD GHAR SOAPS Magic De-Tan Combo Rs. 449Rs. 499(10% OFF); 4.6 | 64.4k",
+                "soft": false
+              },
+              {
+                "type": "not_blank",
+                "ok": true,
+                "evidence": "page text length 9548",
+                "soft": false
+              }
+            ],
+            "status": "PASS",
+            "url_before": "https://www.myntra.com/",
+            "url_after": "https://www.myntra.com/men?rawQuery=men",
+            "page_errors": 0
+          },
+          {
+            "index": 2,
+            "action": "click",
+            "note": "",
+            "target": "product_link 'CeraVe Foaming Cleanser - 88 ml Rs. 503Rs. 559(10% OFF)' -> https://www.myntra.com/face-wash-and-cleanser/cerave/cerave-foaming-cleanser-for",
+            "checks": [
+              {
+                "type": "no_server_error",
+                "ok": true,
+                "evidence": "no 5xx responses, no error text",
+                "soft": false
+              },
+              {
+                "type": "product_page",
+                "ok": false,
+                "evidence": "product page is missing: image",
+                "soft": true
+              },
+              {
+                "type": "has_heading",
+                "ok": true,
+                "evidence": "headings ['CeraVe', 'Foaming Cleanser For Oily Skin with Hyaluronic Acid & Niacinamide - 88ml'], title 'Buy CeraVe Foaming Cleanser For Oily Skin With Hyaluronic Ac'",
+                "soft": true
+              },
+              {
+                "type": "not_blank",
+                "ok": true,
+                "evidence": "page text length 9318",
+                "soft": false
+              }
+            ],
+            "status": "REVIEW",
+            "url_before": "https://www.myntra.com/men?rawQuery=men",
+            "url_after": "https://www.myntra.com/face-wash-and-cleanser/cerave/cerave-foaming-cleanser-for-oily-skin-with-hyaluronic-acid--niacinamide---88ml/32464723/buy",
+            "page_errors": 0
+          },
+          {
+            "index": 3,
+            "action": "choose_variant",
+            "note": "",
+            "target": "variant '4.6'",
+            "checks": [
+              {
+                "type": "no_server_error",
+                "ok": true,
+                "evidence": "no 5xx responses, no error text",
+                "soft": false
+              }
+            ],
+            "status": "PASS",
+            "url_before": "https://www.myntra.com/face-wash-and-cleanser/cerave/cerave-foaming-cleanser-for-oily-skin-with-hyaluronic-acid--niacinamide---88ml/32464723/buy",
+            "url_after": "https://www.myntra.com/face-wash-and-cleanser/cerave/cerave-foaming-cleanser-for-oily-skin-with-hyaluronic-acid--niacinamide---88ml/32464723/buy",
+            "page_errors": 0
+          },
+          {
+            "index": 4,
+            "action": "click",
+            "note": "skipped: 'cart' steps are not allowed on this host",
+            "target": "",
+            "checks": [],
+            "status": "GATED"
+          }
+        ],
+        "page_errors": 0
+      }
+    },
+    {
+      "id": "nav_1_men",
+      "name": "Menu link 'MEN'",
+      "description": "Clicking the 'MEN' menu link must open a working page on the same site",
+      "flow": {
+        "id": "nav_1_men",
+        "name": "Menu link 'MEN'",
+        "description": "Clicking the 'MEN' menu link must open a working page on the same site",
+        "start_url": "https://myntra.com/",
+        "term": "men",
+        "gates": {
+          "cart": false
+        },
+        "steps": [
+          {
+            "action": "goto"
+          },
+          {
+            "action": "click",
+            "target": {
+              "kind": "nav_link",
+              "index": 0,
+              "text": "MEN"
+            },
+            "checks": [
+              "url_changed",
+              "url_same_site",
+              "no_http_error",
+              "has_heading"
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "runs": 1,
+      "reproduced": 0,
+      "result": {
+        "verdict": "PASS",
+        "failed": null,
+        "reviews": [],
+        "summary": "nav_1_men: PASS",
+        "steps": [
+          {
+            "index": 0,
+            "action": "goto",
+            "note": "",
+            "target": "",
+            "checks": [
+              {
+                "type": "no_server_error",
+                "ok": true,
+                "evidence": "no 5xx responses, no error text",
+                "soft": false
+              },
+              {
+                "type": "not_blank",
+                "ok": true,
+                "evidence": "page text length 13922",
+                "soft": false
+              }
+            ],
+            "status": "PASS",
+            "url_before": "about:blank",
+            "url_after": "https://www.myntra.com/",
+            "page_errors": 0
+          },
+          {
+            "index": 1,
+            "action": "click",
+            "note": "",
+            "target": "nav_link 'MEN' -> https://www.myntra.com/shop/men",
+            "checks": [
+              {
+                "type": "no_server_error",
+                "ok": true,
+                "evidence": "no 5xx responses, no error text",
+                "soft": false
+              },
+              {
+                "type": "url_changed",
+                "ok": true,
+                "evidence": "https://www.myntra.com/ -> https://www.myntra.com/shop/men",
+                "soft": false
+              },
+              {
+                "type": "url_same_site",
+                "ok": true,
+                "evidence": "landed on https://www.myntra.com/shop/men",
+                "soft": false
+              },
+              {
+                "type": "no_http_error",
+                "ok": true,
+                "evidence": "page loaded without an HTTP error",
+                "soft": false
+              },
+              {
+                "type": "has_heading",
+                "ok": true,
+                "evidence": "headings ['MEN’S SHOPPING AT MYNTRA: A SUPERIOR EXPERIENCE'], title 'Men Shopping Online - Shop for Mens Clothing & Accessories i'",
+                "soft": true
+              },
+              {
+                "type": "not_blank",
+                "ok": true,
+                "evidence": "page text length 4585",
+                "soft": false
+              }
+            ],
+            "status": "PASS",
+            "url_before": "https://www.myntra.com/",
+            "url_after": "https://www.myntra.com/shop/men",
+            "page_errors": 0
+          }
+        ],
+        "page_errors": 0
+      }
+    },
+    {
+      "id": "nav_2_women",
+      "name": "Menu link 'WOMEN'",
+      "description": "Clicking the 'WOMEN' menu link must open a working page on the same site",
+      "flow": {
+        "id": "nav_2_women",
+        "name": "Menu link 'WOMEN'",
+        "description": "Clicking the 'WOMEN' menu link must open a working page on the same site",
+        "start_url": "https://myntra.com/",
+        "term": "men",
+        "gates": {
+          "cart": false
+        },
+        "steps": [
+          {
+            "action": "goto"
+          },
+          {
+            "action": "click",
+            "target": {
+              "kind": "nav_link",
+              "index": 1,
+              "text": "WOMEN"
+            },
+            "checks": [
+              "url_changed",
+              "url_same_site",
+              "no_http_error",
+              "has_heading"
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "runs": 1,
+      "reproduced": 0,
+      "result": {
+        "verdict": "PASS",
+        "failed": null,
+        "reviews": [],
+        "summary": "nav_2_women: PASS",
+        "steps": [
+          {
+            "index": 0,
+            "action": "goto",
+            "note": "",
+            "target": "",
+            "checks": [
+              {
+                "type": "no_server_error",
+                "ok": true,
+                "evidence": "no 5xx responses, no error text",
+                "soft": false
+              },
+              {
+                "type": "not_blank",
+                "ok": true,
+                "evidence": "page text length 13922",
+                "soft": false
+              }
+            ],
+            "status": "PASS",
+            "url_before": "about:blank",
+            "url_after": "https://www.myntra.com/",
+            "page_errors": 0
+          },
+          {
+            "index": 1,
+            "action": "click",
+            "note": "",
+            "target": "nav_link 'WOMEN' -> https://www.myntra.com/shop/women",
+            "checks": [
+              {
+                "type": "no_server_error",
+                "ok": true,
+                "evidence": "no 5xx responses, no error text",
+                "soft": false
+              },
+              {
+                "type": "url_changed",
+                "ok": true,
+                "evidence": "https://www.myntra.com/ -> https://www.myntra.com/shop/women",
+                "soft": false
+              },
+              {
+                "type": "url_same_site",
+                "ok": true,
+                "evidence": "landed on https://www.myntra.com/shop/women",
+                "soft": false
+              },
+              {
+                "type": "no_http_error",
+                "ok": true,
+                "evidence": "page loaded without an HTTP error",
+                "soft": false
+              },
+              {
+                "type": "has_heading",
+                "ok": true,
+                "evidence": "headings ['ONLINE SHOPPING FOR WOMEN: MYNTRA ALL THE WAY'], title 'Online Shopping for Women - Shop For Women Clothes, Shoes, B'",
+                "soft": true
+              },
+              {
+                "type": "not_blank",
+                "ok": true,
+                "evidence": "page text length 4158",
+                "soft": false
+              }
+            ],
+            "status": "PASS",
+            "url_before": "https://www.myntra.com/",
+            "url_after": "https://www.myntra.com/shop/women",
+            "page_errors": 0
+          }
+        ],
+        "page_errors": 0
+      }
+    },
+    {
+      "id": "nav_3_kids",
+      "name": "Menu link 'KIDS'",
+      "description": "Clicking the 'KIDS' menu link must open a working page on the same site",
+      "flow": {
+        "id": "nav_3_kids",
+        "name": "Menu link 'KIDS'",
+        "description": "Clicking the 'KIDS' menu link must open a working page on the same site",
+        "start_url": "https://myntra.com/",
+        "term": "men",
+        "gates": {
+          "cart": false
+        },
+        "steps": [
+          {
+            "action": "goto"
+          },
+          {
+            "action": "click",
+            "target": {
+              "kind": "nav_link",
+              "index": 2,
+              "text": "KIDS"
+            },
+            "checks": [
+              "url_changed",
+              "url_same_site",
+              "no_http_error",
+              "has_heading"
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "runs": 1,
+      "reproduced": 0,
+      "result": {
+        "verdict": "PASS",
+        "failed": null,
+        "reviews": [],
+        "summary": "nav_3_kids: PASS",
+        "steps": [
+          {
+            "index": 0,
+            "action": "goto",
+            "note": "",
+            "target": "",
+            "checks": [
+              {
+                "type": "no_server_error",
+                "ok": true,
+                "evidence": "no 5xx responses, no error text",
+                "soft": false
+              },
+              {
+                "type": "not_blank",
+                "ok": true,
+                "evidence": "page text length 13922",
+                "soft": false
+              }
+            ],
+            "status": "PASS",
+            "url_before": "about:blank",
+            "url_after": "https://www.myntra.com/",
+            "page_errors": 0
+          },
+          {
+            "index": 1,
+            "action": "click",
+            "note": "",
+            "target": "nav_link 'KIDS' -> https://www.myntra.com/shop/kids",
+            "checks": [
+              {
+                "type": "no_server_error",
+                "ok": true,
+                "evidence": "no 5xx responses, no error text",
+                "soft": false
+              },
+              {
+                "type": "url_changed",
+                "ok": true,
+                "evidence": "https://www.myntra.com/ -> https://www.myntra.com/shop/kids",
+                "soft": false
+              },
+              {
+                "type": "url_same_site",
+                "ok": true,
+                "evidence": "landed on https://www.myntra.com/shop/kids",
+                "soft": false
+              },
+              {
+                "type": "no_http_error",
+                "ok": true,
+                "evidence": "page loaded without an HTTP error",
+                "soft": false
+              },
+              {
+                "type": "has_heading",
+                "ok": true,
+                "evidence": "headings ['MYNTRA FOR KIDS: IRRESISTIBLY COOL AND COMFORTABLE'], title 'Kids Clothing - Buy Kids Clothes, Dresses & Bottom wear Onli'",
+                "soft": true
+              },
+              {
+                "type": "not_blank",
+                "ok": true,
+                "evidence": "page text length 5065",
+                "soft": false
+              }
+            ],
+            "status": "PASS",
+            "url_before": "https://www.myntra.com/",
+            "url_after": "https://www.myntra.com/shop/kids",
+            "page_errors": 0
+          }
+        ],
+        "page_errors": 0
+      }
+    },
+    {
+      "id": "nav_4_home",
+      "name": "Menu link 'HOME'",
+      "description": "Clicking the 'HOME' menu link must open a working page on the same site",
+      "flow": {
+        "id": "nav_4_home",
+        "name": "Menu link 'HOME'",
+        "description": "Clicking the 'HOME' menu link must open a working page on the same site",
+        "start_url": "https://myntra.com/",
+        "term": "men",
+        "gates": {
+          "cart": false
+        },
+        "steps": [
+          {
+            "action": "goto"
+          },
+          {
+            "action": "click",
+            "target": {
+              "kind": "nav_link",
+              "index": 3,
+              "text": "HOME"
+            },
+            "checks": [
+              "url_changed",
+              "url_same_site",
+              "no_http_error",
+              "has_heading"
+            ]
+          }
+        ]
+      },
+      "verdict": "REVIEW",
+      "runs": 1,
+      "reproduced": 0,
+      "result": {
+        "verdict": "REVIEW",
+        "failed": null,
+        "reviews": [
+          {
+            "step": 1,
+            "check": "has_heading",
+            "evidence": "headings [], title 'Home and Living - Buy Interior Decoration Products and Acces'"
+          }
+        ],
+        "summary": "nav_4_home: REVIEW - needs a human look: step 2 'has_heading': headings [], title 'Home and Living - Buy Interior Decoration Products and Acces'",
+        "steps": [
+          {
+            "index": 0,
+            "action": "goto",
+            "note": "",
+            "target": "",
+            "checks": [
+              {
+                "type": "no_server_error",
+                "ok": true,
+                "evidence": "no 5xx responses, no error text",
+                "soft": false
+              },
+              {
+                "type": "not_blank",
+                "ok": true,
+                "evidence": "page text length 13922",
+                "soft": false
+              }
+            ],
+            "status": "PASS",
+            "url_before": "about:blank",
+            "url_after": "https://www.myntra.com/",
+            "page_errors": 0
+          },
+          {
+            "index": 1,
+            "action": "click",
+            "note": "",
+            "target": "nav_link 'HOME' -> https://www.myntra.com/shop/home-living",
+            "checks": [
+              {
+                "type": "no_server_error",
+                "ok": true,
+                "evidence": "no 5xx responses, no error text",
+                "soft": false
+              },
+              {
+                "type": "url_changed",
+                "ok": true,
+                "evidence": "https://www.myntra.com/ -> https://www.myntra.com/shop/home-living",
+                "soft": false
+              },
+              {
+                "type": "url_same_site",
+                "ok": true,
+                "evidence": "landed on https://www.myntra.com/shop/home-living",
+                "soft": false
+              },
+              {
+                "type": "no_http_error",
+                "ok": true,
+                "evidence": "page loaded without an HTTP error",
+                "soft": false
+              },
+              {
+                "type": "has_heading",
+                "ok": false,
+                "evidence": "headings [], title 'Home and Living - Buy Interior Decoration Products and Acces'",
+                "soft": true
+              },
+              {
+                "type": "not_blank",
+                "ok": true,
+                "evidence": "page text length 2094",
+                "soft": false
+              }
+            ],
+            "status": "REVIEW",
+            "url_before": "https://www.myntra.com/",
+            "url_after": "https://www.myntra.com/shop/home-living",
+            "page_errors": 0
+          }
+        ],
+        "page_errors": 0
+      }
+    },
+    {
+      "id": "nav_5_beauty",
+      "name": "Menu link 'BEAUTY'",
+      "description": "Clicking the 'BEAUTY' menu link must open a working page on the same site",
+      "flow": {
+        "id": "nav_5_beauty",
+        "name": "Menu link 'BEAUTY'",
+        "description": "Clicking the 'BEAUTY' menu link must open a working page on the same site",
+        "start_url": "https://myntra.com/",
+        "term": "men",
+        "gates": {
+          "cart": false
+        },
+        "steps": [
+          {
+            "action": "goto"
+          },
+          {
+            "action": "click",
+            "target": {
+              "kind": "nav_link",
+              "index": 4,
+              "text": "BEAUTY"
+            },
+            "checks": [
+              "url_changed",
+              "url_same_site",
+              "no_http_error",
+              "has_heading"
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "runs": 1,
+      "reproduced": 0,
+      "result": {
+        "verdict": "PASS",
+        "failed": null,
+        "reviews": [],
+        "summary": "nav_5_beauty: PASS",
+        "steps": [
+          {
+            "index": 0,
+            "action": "goto",
+            "note": "",
+            "target": "",
+            "checks": [
+              {
+                "type": "no_server_error",
+                "ok": true,
+                "evidence": "no 5xx responses, no error text",
+                "soft": false
+              },
+              {
+                "type": "not_blank",
+                "ok": true,
+                "evidence": "page text length 13922",
+                "soft": false
+              }
+            ],
+            "status": "PASS",
+            "url_before": "about:blank",
+            "url_after": "https://www.myntra.com/",
+            "page_errors": 0
+          },
+          {
+            "index": 1,
+            "action": "click",
+            "note": "",
+            "target": "nav_link 'BEAUTY' -> https://www.myntra.com/personal-care",
+            "checks": [
+              {
+                "type": "no_server_error",
+                "ok": true,
+                "evidence": "no 5xx responses, no error text",
+                "soft": false
+              },
+              {
+                "type": "url_changed",
+                "ok": true,
+                "evidence": "https://www.myntra.com/ -> https://www.myntra.com/personal-care",
+                "soft": false
+              },
+              {
+                "type": "url_same_site",
+                "ok": true,
+                "evidence": "landed on https://www.myntra.com/personal-care",
+                "soft": false
+              },
+              {
+                "type": "no_http_error",
+                "ok": true,
+                "evidence": "page loaded without an HTTP error",
+                "soft": false
+              },
+              {
+                "type": "has_heading",
+                "ok": true,
+                "evidence": "headings ['Personal Care', 'PERSONAL CARE PRICE LIST'], title 'Buy Personal Care & Beauty Products Online at Best Price | M'",
+                "soft": true
+              },
+              {
+                "type": "not_blank",
+                "ok": true,
+                "evidence": "page text length 10826",
+                "soft": false
+              }
+            ],
+            "status": "PASS",
+            "url_before": "https://www.myntra.com/",
+            "url_after": "https://www.myntra.com/personal-care",
+            "page_errors": 0
+          }
+        ],
+        "page_errors": 0
+      }
+    },
+    {
+      "id": "nav_6_genz",
+      "name": "Menu link 'GENZ'",
+      "description": "Clicking the 'GENZ' menu link must open a working page on the same site",
+      "flow": {
+        "id": "nav_6_genz",
+        "name": "Menu link 'GENZ'",
+        "description": "Clicking the 'GENZ' menu link must open a working page on the same site",
+        "start_url": "https://myntra.com/",
+        "term": "men",
+        "gates": {
+          "cart": false
+        },
+        "steps": [
+          {
+            "action": "goto"
+          },
+          {
+            "action": "click",
+            "target": {
+              "kind": "nav_link",
+              "index": 5,
+              "text": "GENZ"
+            },
+            "checks": [
+              "url_changed",
+              "url_same_site",
+              "no_http_error",
+              "has_heading"
+            ]
+          }
+        ]
+      },
+      "verdict": "REVIEW",
+      "runs": 1,
+      "reproduced": 0,
+      "result": {
+        "verdict": "REVIEW",
+        "failed": null,
+        "reviews": [
+          {
+            "step": 1,
+            "check": "has_heading",
+            "evidence": "headings [], title 'Online Shopping Site - Shop Online for Men, Women & Kids Fas'"
+          }
+        ],
+        "summary": "nav_6_genz: REVIEW - needs a human look: step 2 'has_heading': headings [], title 'Online Shopping Site - Shop Online for Men, Women & Kids Fas'",
+        "steps": [
+          {
+            "index": 0,
+            "action": "goto",
+            "note": "",
+            "target": "",
+            "checks": [
+              {
+                "type": "no_server_error",
+                "ok": true,
+                "evidence": "no 5xx responses, no error text",
+                "soft": false
+              },
+              {
+                "type": "not_blank",
+                "ok": true,
+                "evidence": "page text length 13922",
+                "soft": false
+              }
+            ],
+            "status": "PASS",
+            "url_before": "about:blank",
+            "url_after": "https://www.myntra.com/",
+            "page_errors": 0
+          },
+          {
+            "index": 1,
+            "action": "click",
+            "note": "",
+            "target": "nav_link 'GENZ' -> https://www.myntra.com/shop/fwd-women",
+            "checks": [
+              {
+                "type": "no_server_error",
+                "ok": true,
+                "evidence": "no 5xx responses, no error text",
+                "soft": false
+              },
+              {
+                "type": "url_changed",
+                "ok": true,
+                "evidence": "https://www.myntra.com/ -> https://www.myntra.com/shop/fwd-women",
+                "soft": false
+              },
+              {
+                "type": "url_same_site",
+                "ok": true,
+                "evidence": "landed on https://www.myntra.com/shop/fwd-women",
+                "soft": false
+              },
+              {
+                "type": "no_http_error",
+                "ok": true,
+                "evidence": "page loaded without an HTTP error",
+                "soft": false
+              },
+              {
+                "type": "has_heading",
+                "ok": false,
+                "evidence": "headings [], title 'Online Shopping Site - Shop Online for Men, Women & Kids Fas'",
+                "soft": true
+              },
+              {
+                "type": "not_blank",
+                "ok": true,
+                "evidence": "page text length 1187",
+                "soft": false
+              }
+            ],
+            "status": "REVIEW",
+            "url_before": "https://www.myntra.com/",
+            "url_after": "https://www.myntra.com/shop/fwd-women",
+            "page_errors": 0
+          }
+        ],
+        "page_errors": 0
+      }
+    },
+    {
+      "id": "auth_gate_cart",
+      "name": "'cart' link as a guest",
+      "description": "Opening the cart link as a logged-out visitor must show the page or a login prompt - never an error",
+      "flow": {
+        "id": "auth_gate_cart",
+        "name": "'cart' link as a guest",
+        "description": "Opening the cart link as a logged-out visitor must show the page or a login prompt - never an error",
+        "start_url": "https://myntra.com/",
+        "term": "men",
+        "gates": {
+          "cart": false
+        },
+        "steps": [
+          {
+            "action": "goto"
+          },
+          {
+            "action": "click",
+            "target": {
+              "kind": "auth_link",
+              "which": "cart"
+            },
+            "checks": [
+              {
+                "type": "auth_gate_or_page",
+                "path": "cart|bag|basket|trolley"
+              }
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "runs": 1,
+      "reproduced": 0,
+      "result": {
+        "verdict": "PASS",
+        "failed": null,
+        "reviews": [],
+        "summary": "auth_gate_cart: PASS",
+        "steps": [
+          {
+            "index": 0,
+            "action": "goto",
+            "note": "",
+            "target": "",
+            "checks": [
+              {
+                "type": "no_server_error",
+                "ok": true,
+                "evidence": "no 5xx responses, no error text",
+                "soft": false
+              },
+              {
+                "type": "not_blank",
+                "ok": true,
+                "evidence": "page text length 13922",
+                "soft": false
+              }
+            ],
+            "status": "PASS",
+            "url_before": "about:blank",
+            "url_after": "https://www.myntra.com/",
+            "page_errors": 0
+          },
+          {
+            "index": 1,
+            "action": "click",
+            "note": "",
+            "target": "auth_link '' -> https://www.myntra.com/trolley-bags?plaEnabled=false&rf=Discount%20Range%3A30.0_ [forced click]",
+            "checks": [
+              {
+                "type": "no_server_error",
+                "ok": true,
+                "evidence": "no 5xx responses, no error text",
+                "soft": false
+              },
+              {
+                "type": "auth_gate_or_page",
+                "ok": true,
+                "evidence": "landed on https://www.myntra.com/trolley-bags?plaEnabled=false&rf=Discount%20Range%3A30.0_100.0_30.0%20TO%2010 (login gate: False)",
+                "soft": false
+              },
+              {
+                "type": "not_blank",
+                "ok": true,
+                "evidence": "page text length 11506",
+                "soft": false
+              }
+            ],
+            "status": "PASS",
+            "url_before": "https://www.myntra.com/",
+            "url_after": "https://www.myntra.com/trolley-bags?plaEnabled=false&rf=Discount%20Range%3A30.0_100.0_30.0%20TO%20100.0",
+            "page_errors": 0
+          }
+        ],
+        "page_errors": 0
+      }
+    },
+    {
+      "id": "auth_gate_orders",
+      "name": "'Track Orders' link as a guest",
+      "description": "Opening the orders link as a logged-out visitor must show the page or a login prompt - never an error",
+      "flow": {
+        "id": "auth_gate_orders",
+        "name": "'Track Orders' link as a guest",
+        "description": "Opening the orders link as a logged-out visitor must show the page or a login prompt - never an error",
+        "start_url": "https://myntra.com/",
+        "term": "men",
+        "gates": {
+          "cart": false
+        },
+        "steps": [
+          {
+            "action": "goto"
+          },
+          {
+            "action": "click",
+            "target": {
+              "kind": "auth_link",
+              "which": "orders"
+            },
+            "checks": [
+              {
+                "type": "auth_gate_or_page",
+                "path": "orders"
+              }
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "runs": 1,
+      "reproduced": 0,
+      "result": {
+        "verdict": "PASS",
+        "failed": null,
+        "reviews": [],
+        "summary": "auth_gate_orders: PASS",
+        "steps": [
+          {
+            "index": 0,
+            "action": "goto",
+            "note": "",
+            "target": "",
+            "checks": [
+              {
+                "type": "no_server_error",
+                "ok": true,
+                "evidence": "no 5xx responses, no error text",
+                "soft": false
+              },
+              {
+                "type": "not_blank",
+                "ok": true,
+                "evidence": "page text length 13922",
+                "soft": false
+              }
+            ],
+            "status": "PASS",
+            "url_before": "about:blank",
+            "url_after": "https://www.myntra.com/",
+            "page_errors": 0
+          },
+          {
+            "index": 1,
+            "action": "click",
+            "note": "",
+            "target": "auth_link 'Track Orders' -> https://www.myntra.com/my/orders",
+            "checks": [
+              {
+                "type": "no_server_error",
+                "ok": true,
+                "evidence": "no 5xx responses, no error text",
+                "soft": false
+              },
+              {
+                "type": "auth_gate_or_page",
+                "ok": true,
+                "evidence": "landed on https://www.myntra.com/login?referer=https%3A%2F%2Fwww.myntra.com%2Fmy%2Forders (login gate: True)",
+                "soft": false
+              },
+              {
+                "type": "not_blank",
+                "ok": true,
+                "evidence": "page text length 209",
+                "soft": false
+              }
+            ],
+            "status": "PASS",
+            "url_before": "https://www.myntra.com/",
+            "url_after": "https://www.myntra.com/login?referer=https%3A%2F%2Fwww.myntra.com%2Fmy%2Forders",
+            "page_errors": 0
+          }
+        ],
+        "page_errors": 0
+      }
+    },
+    {
+      "id": "ai_studio_nav",
+      "name": "studio_nav",
+      "description": "Verify STUDIO navigation link works correctly",
+      "flow": {
+        "id": "ai_studio_nav",
+        "name": "studio_nav",
+        "description": "Verify STUDIO navigation link works correctly",
+        "start_url": "https://myntra.com/",
+        "term": "men",
+        "gates": {
+          "cart": false
+        },
+        "steps": [
+          {
+            "action": "goto"
+          },
+          {
+            "action": "click",
+            "target": {
+              "kind": "link_text",
+              "text": "STUDIO"
+            },
+            "checks": [
+              {
+                "type": "url_changed"
+              },
+              {
+                "type": "no_server_error"
+              }
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "runs": 1,
+      "reproduced": 0,
+      "result": {
+        "verdict": "PASS",
+        "failed": null,
+        "reviews": [],
+        "summary": "ai_studio_nav: PASS",
+        "steps": [
+          {
+            "index": 0,
+            "action": "goto",
+            "note": "",
+            "target": "",
+            "checks": [
+              {
+                "type": "no_server_error",
+                "ok": true,
+                "evidence": "no 5xx responses, no error text",
+                "soft": false
+              },
+              {
+                "type": "not_blank",
+                "ok": true,
+                "evidence": "page text length 13922",
+                "soft": false
+              }
+            ],
+            "status": "PASS",
+            "url_before": "about:blank",
+            "url_after": "https://www.myntra.com/",
+            "page_errors": 0
+          },
+          {
+            "index": 1,
+            "action": "click",
+            "note": "",
+            "target": "link_text 'STUDIO' -> https://www.myntra.com/studio/home",
+            "checks": [
+              {
+                "type": "no_server_error",
+                "ok": true,
+                "evidence": "no 5xx responses, no error text",
+                "soft": false
+              },
+              {
+                "type": "url_changed",
+                "ok": true,
+                "evidence": "https://www.myntra.com/ -> https://www.myntra.com/studio/home",
+                "soft": false
+              },
+              {
+                "type": "no_server_error",
+                "ok": true,
+                "evidence": "no 5xx responses, no error text",
+                "soft": false
+              },
+              {
+                "type": "not_blank",
+                "ok": true,
+                "evidence": "page text length 2582",
+                "soft": false
+              }
+            ],
+            "status": "PASS",
+            "url_before": "https://www.myntra.com/",
+            "url_after": "https://www.myntra.com/studio/home",
+            "page_errors": 0
+          }
+        ],
+        "page_errors": 0
+      }
+    },
+    {
+      "id": "ai_guest_orders_gate",
+      "name": "guest_orders_gate",
+      "description": "Verify guest clicking orders triggers auth gate",
+      "flow": {
+        "id": "ai_guest_orders_gate",
+        "name": "guest_orders_gate",
+        "description": "Verify guest clicking orders triggers auth gate",
+        "start_url": "https://myntra.com/",
+        "term": "men",
+        "gates": {
+          "cart": false
+        },
+        "steps": [
+          {
+            "action": "goto"
+          },
+          {
+            "action": "click",
+            "target": {
+              "kind": "auth_link",
+              "which": "orders"
+            },
+            "checks": [
+              {
+                "type": "auth_gate_or_page",
+                "path": ".*login.*"
+              }
+            ]
+          }
+        ]
+      },
+      "verdict": "PASS",
+      "runs": 1,
+      "reproduced": 0,
+      "result": {
+        "verdict": "PASS",
+        "failed": null,
+        "reviews": [],
+        "summary": "ai_guest_orders_gate: PASS",
+        "steps": [
+          {
+            "index": 0,
+            "action": "goto",
+            "note": "",
+            "target": "",
+            "checks": [
+              {
+                "type": "no_server_error",
+                "ok": true,
+                "evidence": "no 5xx responses, no error text",
+                "soft": false
+              },
+              {
+                "type": "not_blank",
+                "ok": true,
+                "evidence": "page text length 13922",
+                "soft": false
+              }
+            ],
+            "status": "PASS",
+            "url_before": "about:blank",
+            "url_after": "https://www.myntra.com/",
+            "page_errors": 0
+          },
+          {
+            "index": 1,
+            "action": "click",
+            "note": "",
+            "target": "auth_link 'Track Orders' -> https://www.myntra.com/my/orders",
+            "checks": [
+              {
+                "type": "no_server_error",
+                "ok": true,
+                "evidence": "no 5xx responses, no error text",
+                "soft": false
+              },
+              {
+                "type": "auth_gate_or_page",
+                "ok": true,
+                "evidence": "landed on https://www.myntra.com/login?referer=https%3A%2F%2Fwww.myntra.com%2Fmy%2Forders (login gate: True)",
+                "soft": false
+              },
+              {
+                "type": "not_blank",
+                "ok": true,
+                "evidence": "page text length 209",
+                "soft": false
+              }
+            ],
+            "status": "PASS",
+            "url_before": "https://www.myntra.com/",
+            "url_after": "https://www.myntra.com/login?referer=https%3A%2F%2Fwww.myntra.com%2Fmy%2Forders",
+            "page_errors": 0
+          }
+        ],
+        "page_errors": 0
+      }
+    }
+  ],
+  "bugs": [],
+  "summary": {
+    "flows": 16,
+    "pass": 11,
+    "review": 4,
+    "fail": 0,
+    "unverified": 0,
+    "gated": 1,
+    "flaky": 0,
+    "bugs_found": 0
+  }
+}

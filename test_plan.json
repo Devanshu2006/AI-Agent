@@ -1,360 +1,54 @@
 {
-    "website": "https://denqr.onrender.com/",
+    "website": "https://myntra.com/",
     "page_type": "signup",
     "test_scenarios": [
         {
             "id": "TC001",
-            "title": "Verify home page headings and navigation links",
+            "title": "Verify navigation to Myntra Insider page from header link",
             "type": "Positive",
-            "priority": "High",
-            "page": "https://denqr.onrender.com/",
+            "priority": "Medium",
+            "page": "https://www.myntra.com/",
             "steps": [
-                "Navigate to home page",
-                "Verify main heading and navigation links"
+                "Open homepage",
+                "Click on 'Myntra Insider New' link in the header"
             ],
-            "expected_result": "Home page headings and public navigation links are visible."
+            "expected_result": "Page navigates to the Myntra Insider URL with cache=false parameter"
         },
         {
             "id": "TC002",
-            "title": "Verify login page elements",
+            "title": "Verify navigation to Gift Card page from header link",
             "type": "Positive",
-            "priority": "High",
-            "page": "https://denqr.onrender.com/login",
+            "priority": "Medium",
+            "page": "https://www.myntra.com/",
             "steps": [
-                "Navigate to login page",
-                "Verify username and password inputs are present"
+                "Open homepage",
+                "Click on 'Gift Card' link in the header"
             ],
-            "expected_result": "Login input fields and submit button are visible."
+            "expected_result": "Page navigates to the Gift Card URL"
         },
         {
             "id": "TC003",
-            "title": "Verify signup page elements",
+            "title": "Verify navigation to Contact Us page from footer/header link",
             "type": "Positive",
-            "priority": "High",
-            "page": "https://denqr.onrender.com/Admin",
+            "priority": "Low",
+            "page": "https://www.myntra.com/",
             "steps": [
-                "Navigate to signup page",
-                "Verify registration inputs are present"
+                "Open homepage",
+                "Click on 'Contact Us' link"
             ],
-            "expected_result": "Full Name, Email, Password, and Confirm Password fields are visible."
-        },
-        {
-            "id": "TC004",
-            "title": "Verify privacy policy content",
-            "type": "Positive",
-            "priority": "Medium",
-            "page": "https://denqr.onrender.com/privacy",
-            "steps": [
-                "Navigate to privacy policy page",
-                "Verify headings"
-            ],
-            "expected_result": "Privacy policy headings are visible."
-        },
-        {
-            "id": "TC005",
-            "title": "Verify terms and conditions content",
-            "type": "Positive",
-            "priority": "Medium",
-            "page": "https://denqr.onrender.com/terms",
-            "steps": [
-                "Navigate to terms page",
-                "Verify headings"
-            ],
-            "expected_result": "Terms & Conditions headings are visible."
-        },
-        {
-            "id": "TC006",
-            "title": "Verify contact page content",
-            "type": "Positive",
-            "priority": "Medium",
-            "page": "https://denqr.onrender.com/contact",
-            "steps": [
-                "Navigate to contact page",
-                "Verify contact headings and emails"
-            ],
-            "expected_result": "Contact headings and email links are visible."
-        },
-        {
-            "id": "TC007",
-            "title": "Verify refund policy content",
-            "type": "Positive",
-            "priority": "Medium",
-            "page": "https://denqr.onrender.com/refund",
-            "steps": [
-                "Navigate to refund policy page",
-                "Verify headings"
-            ],
-            "expected_result": "Refund policy headings are visible."
-        },
-        {
-            "id": "TC008",
-            "title": "Verify shipping policy content",
-            "type": "Positive",
-            "priority": "Medium",
-            "page": "https://denqr.onrender.com/shipping",
-            "steps": [
-                "Navigate to shipping policy page",
-                "Verify headings and back link"
-            ],
-            "expected_result": "Shipping policy headings and back home link are visible."
-        },
-        {
-            "id": "TC009",
-            "title": "Verify forgot password page elements",
-            "type": "Positive",
-            "priority": "Medium",
-            "page": "https://denqr.onrender.com/forgot_password",
-            "steps": [
-                "Navigate to forgot password page",
-                "Verify email input"
-            ],
-            "expected_result": "Email input field and reset button are visible."
-        },
-        {
-            "id": "TC010",
-            "title": "Verify staff login page elements",
-            "type": "Positive",
-            "priority": "Medium",
-            "page": "https://denqr.onrender.com/staff_login",
-            "steps": [
-                "Navigate to staff login page",
-                "Verify inputs"
-            ],
-            "expected_result": "Staff login inputs (Name, role, contact) are visible."
-        },
-        {
-            "id": "TC011",
-            "title": "Verify analytics authenticated dashboard elements",
-            "type": "Positive",
-            "priority": "High",
-            "page": "https://denqr.onrender.com/Analytics",
-            "steps": [
-                "Navigate to analytics dashboard using auth_page",
-                "Verify performance headings and sidebar links"
-            ],
-            "expected_result": "Dashboard performance headings and sidebar navigation links are visible."
-        },
-        {
-            "id": "TC012",
-            "title": "Verify menu management page elements",
-            "type": "Positive",
-            "priority": "High",
-            "page": "https://denqr.onrender.com/menu",
-            "steps": [
-                "Navigate to menu page using auth_page",
-                "Verify item count input"
-            ],
-            "expected_result": "Item count input and submit button are visible."
-        },
-        {
-            "id": "TC013",
-            "title": "Verify QR code generation page elements",
-            "type": "Positive",
-            "priority": "Medium",
-            "page": "https://denqr.onrender.com/qr",
-            "steps": [
-                "Navigate to QR page using auth_page",
-                "Verify table count input"
-            ],
-            "expected_result": "Table count input is visible."
-        },
-        {
-            "id": "TC014",
-            "title": "Verify team management page elements",
-            "type": "Positive",
-            "priority": "Medium",
-            "page": "https://denqr.onrender.com/team",
-            "steps": [
-                "Navigate to team page using auth_page",
-                "Verify member count input"
-            ],
-            "expected_result": "Member count input is visible."
-        },
-        {
-            "id": "TC015",
-            "title": "Verify settings page elements",
-            "type": "Positive",
-            "priority": "High",
-            "page": "https://denqr.onrender.com/settings",
-            "steps": [
-                "Navigate to settings page using auth_page",
-                "Verify UPI ID inputs and password change fields"
-            ],
-            "expected_result": "UPI ID inputs, password fields, and management buttons are visible."
-        },
-        {
-            "id": "TC016",
-            "title": "Verify subscription plans page elements",
-            "type": "Positive",
-            "priority": "Medium",
-            "page": "https://denqr.onrender.com/payment",
-            "steps": [
-                "Navigate to payment plans page using auth_page",
-                "Verify subscription plan headings"
-            ],
-            "expected_result": "Basic, Moderate, Premium, and Yearly plan sections are visible."
+            "expected_result": "Page navigates to the Contact Us URL"
         }
     ],
     "files": [
         {
             "path": "pages/home_page.py",
             "type": "page_object",
-            "code": "from playwright.sync_api import Page\n\nclass HomePage:\n    def __init__(self, page: Page):\n        self.page = page\n        self.login_link = page.get_by_role(\"link\", name=\"Login\")\n        self.signup_link = page.get_by_role(\"link\", name=\"Sign Up\")\n        self.main_heading = page.get_by_role(\"heading\", name=\"Make Ordering at Your Restaurant Effortless.\")\n\n    def open(self):\n        self.page.goto(\"https://denqr.onrender.com/\")\n"
-        },
-        {
-            "path": "pages/login_page.py",
-            "type": "page_object",
-            "code": "from playwright.sync_api import Page\n\nclass LoginPage:\n    def __init__(self, page: Page):\n        self.page = page\n        self.email_input = page.get_by_label(\"Email/Phone:\")\n        self.password_input = page.get_by_label(\"Password:\")\n        self.login_button = page.get_by_role(\"button\", name=\"Login\")\n\n    def open(self):\n        self.page.goto(\"https://denqr.onrender.com/login\")\n"
-        },
-        {
-            "path": "pages/signup_page.py",
-            "type": "page_object",
-            "code": "from playwright.sync_api import Page\n\nclass SignupPage:\n    def __init__(self, page: Page):\n        self.page = page\n        self.fullname_input = page.get_by_label(\"Full Name\")\n        self.email_input = page.get_by_label(\"Email\")\n        self.password_input = page.get_by_label(\"Password\")\n        self.confirm_password_input = page.get_by_label(\"Confirm Password\")\n        self.continue_button = page.get_by_role(\"button\", name=\"Continue\")\n\n    def open(self):\n        self.page.goto(\"https://denqr.onrender.com/Admin\")\n"
-        },
-        {
-            "path": "pages/privacy_page.py",
-            "type": "page_object",
-            "code": "from playwright.sync_api import Page\n\nclass PrivacyPage:\n    def __init__(self, page: Page):\n        self.page = page\n        self.heading = page.get_by_role(\"heading\", name=\"Our Privacy Policy\")\n\n    def open(self):\n        self.page.goto(\"https://denqr.onrender.com/privacy\")\n"
-        },
-        {
-            "path": "pages/terms_page.py",
-            "type": "page_object",
-            "code": "from playwright.sync_api import Page\n\nclass TermsPage:\n    def __init__(self, page: Page):\n        self.page = page\n        self.heading = page.get_by_role(\"heading\", name=\"Terms & Conditions\")\n\n    def open(self):\n        self.page.goto(\"https://denqr.onrender.com/terms\")\n"
-        },
-        {
-            "path": "pages/contact_page.py",
-            "type": "page_object",
-            "code": "from playwright.sync_api import Page\n\nclass ContactPage:\n    def __init__(self, page: Page):\n        self.page = page\n        self.heading = page.get_by_role(\"heading\", name=\"Contact Us\")\n\n    def open(self):\n        self.page.goto(\"https://denqr.onrender.com/contact\")\n"
-        },
-        {
-            "path": "pages/refund_page.py",
-            "type": "page_object",
-            "code": "from playwright.sync_api import Page\n\nclass RefundPage:\n    def __init__(self, page: Page):\n        self.page = page\n        self.heading = page.get_by_role(\"heading\", name=\"Refund Policy\")\n\n    def open(self):\n        self.page.goto(\"https://denqr.onrender.com/refund\")\n"
-        },
-        {
-            "path": "pages/shipping_page.py",
-            "type": "page_object",
-            "code": "from playwright.sync_api import Page\n\nclass ShippingPage:\n    def __init__(self, page: Page):\n        self.page = page\n        self.heading = page.get_by_role(\"heading\", name=\"Shipping & Delivery Policy\")\n        self.back_home_link = page.get_by_role(\"link\", name=\"← Go Back Home\")\n\n    def open(self):\n        self.page.goto(\"https://denqr.onrender.com/shipping\")\n"
-        },
-        {
-            "path": "pages/forgot_password_page.py",
-            "type": "page_object",
-            "code": "from playwright.sync_api import Page\n\nclass ForgotPasswordPage:\n    def __init__(self, page: Page):\n        self.page = page\n        self.reset_button = page.get_by_role(\"button\", name=\"Reset Password\")\n\n    def open(self):\n        self.page.goto(\"https://denqr.onrender.com/forgot_password\")\n"
-        },
-        {
-            "path": "pages/staff_login_page.py",
-            "type": "page_object",
-            "code": "from playwright.sync_api import Page\n\nclass StaffLoginPage:\n    def __init__(self, page: Page):\n        self.page = page\n        self.name_input = page.get_by_label(\"Name:\")\n        self.login_button = page.get_by_role(\"button\", name=\"Login\")\n\n    def open(self):\n        self.page.goto(\"https://denqr.onrender.com/staff_login\")\n"
-        },
-        {
-            "path": "pages/analytics_page.py",
-            "type": "page_object",
-            "code": "from playwright.sync_api import Page\n\nclass AnalyticsPage:\n    def __init__(self, page: Page):\n        self.page = page\n        self.performance_heading = page.get_by_role(\"heading\", name=\"📊 Last 7 Days Performance\")\n        self.menu_link = page.get_by_role(\"link\", name=\"Menu\")\n\n    def open(self):\n        self.page.goto(\"https://denqr.onrender.com/Analytics\")\n"
-        },
-        {
-            "path": "pages/menu_page.py",
-            "type": "page_object",
-            "code": "from playwright.sync_api import Page\n\nclass MenuPage:\n    def __init__(self, page: Page):\n        self.page = page\n        self.item_count_input = page.get_by_label(\"How many items do you want to add?\")\n        self.enter_button = page.get_by_role(\"button\", name=\"Enter..\")\n\n    def open(self):\n        self.page.goto(\"https://denqr.onrender.com/menu\")\n"
-        },
-        {
-            "path": "pages/qr_page.py",
-            "type": "page_object",
-            "code": "from playwright.sync_api import Page\n\nclass QrPage:\n    def __init__(self, page: Page):\n        self.page = page\n        self.table_count_input = page.get_by_placeholder(\"1\")\n        self.generate_button = page.get_by_role(\"button\", name=\"Generate\")\n\n    def open(self):\n        self.page.goto(\"https://denqr.onrender.com/qr\")\n"
-        },
-        {
-            "path": "pages/team_page.py",
-            "type": "page_object",
-            "code": "from playwright.sync_api import Page\n\nclass TeamPage:\n    def __init__(self, page: Page):\n        self.page = page\n        self.member_count_input = page.get_by_label(\"Number of Members:\")\n        self.enter_button = page.get_by_role(\"button\", name=\"Enter..\")\n\n    def open(self):\n        self.page.goto(\"https://denqr.onrender.com/team\")\n"
-        },
-        {
-            "path": "pages/settings_page.py",
-            "type": "page_object",
-            "code": "from playwright.sync_api import Page\n\nclass SettingsPage:\n    def __init__(self, page: Page):\n        self.page = page\n        self.upi_inputs = page.get_by_placeholder(\"Enter Your UPI ID\")\n        self.current_password_input = page.get_by_placeholder(\"Current Password\")\n        self.new_password_input = page.get_by_placeholder(\"New Password\")\n        self.confirm_password_input = page.get_by_placeholder(\"Confirm Password\")\n\n    def open(self):\n        self.page.goto(\"https://denqr.onrender.com/settings\")\n"
-        },
-        {
-            "path": "pages/payment_page.py",
-            "type": "page_object",
-            "code": "from playwright.sync_api import Page\n\nclass PaymentPage:\n    def __init__(self, page: Page):\n        self.page = page\n        self.basic_heading = page.get_by_role(\n            \"heading\", name=\"Basic\", exact=True\n        )\n        self.moderate_heading = page.get_by_role(\"heading\", name=\"Moderate\")\n\n    def open(self):\n        self.page.goto(\"https://denqr.onrender.com/payment\")\n"
+            "code": "from playwright.sync_api import Page, Locator\n\nclass HomePage:\n    def __init__(self, page: Page):\n        self.page = page\n        self.url = \"https://www.myntra.com/\"\n        \n        # Locators using Playwright recommended practices\n        self.search_input: Locator = self.page.get_by_placeholder(\"Search for products, brands and more\")\n        self.myntra_insider_link: Locator = self.page.get_by_role(\"link\", name=\"Myntra Insider New\")\n        self.gift_card_link: Locator = self.page.get_by_role(\"link\", name=\"Gift Card\")\n        self.track_orders_link: Locator = self.page.get_by_role(\"link\", name=\"Track Orders\").first\n        self.contact_us_link: Locator = self.page.get_by_role(\"link\", name=\"Contact Us\").first\n\n    def open(self):\n        self.page.goto(self.url)\n\n    def search_product(self, query: str):\n        self.search_input.fill(query)\n        self.search_input.press(\"Enter\")\n\n    def click_myntra_insider(self):\n        self.myntra_insider_link.click()\n\n    def click_gift_card(self):\n        self.gift_card_link.click()\n\n    def click_contact_us(self):\n        self.contact_us_link.click()\n"
         },
         {
             "path": "tests/test_home.py",
             "type": "test",
-            "code": "import pytest\nfrom playwright.sync_api import Page, expect\nfrom generated_tests.pages.home_page import HomePage\n\ndef test_home_page_elements(page: Page):\n    home = HomePage(page)\n    home.open()\n    expect(home.main_heading).to_be_visible()\n    expect(home.login_link).to_be_visible()\n    expect(home.signup_link).to_be_visible()\n"
-        },
-        {
-            "path": "tests/test_login.py",
-            "type": "test",
-            "code": "import pytest\nfrom playwright.sync_api import Page, expect\nfrom generated_tests.pages.login_page import LoginPage\n\ndef test_login_page_elements(page: Page):\n    login = LoginPage(page)\n    login.open()\n    expect(login.email_input).to_be_visible()\n    expect(login.password_input).to_be_visible()\n    expect(login.login_button).to_be_visible()\n"
-        },
-        {
-            "path": "tests/test_signup.py",
-            "type": "test",
-            "code": "import pytest\nfrom playwright.sync_api import Page, expect\nfrom generated_tests.pages.signup_page import SignupPage\n\ndef test_signup_page_elements(page: Page):\n    signup = SignupPage(page)\n    signup.open()\n    expect(signup.fullname_input).to_be_visible()\n    expect(signup.email_input).to_be_visible()\n    expect(signup.password_input).to_be_visible()\n    expect(signup.confirm_password_input).to_be_visible()\n    expect(signup.continue_button).to_be_visible()\n"
-        },
-        {
-            "path": "tests/test_privacy.py",
-            "type": "test",
-            "code": "import pytest\nfrom playwright.sync_api import Page, expect\nfrom generated_tests.pages.privacy_page import PrivacyPage\n\ndef test_privacy_page_content(page: Page):\n    privacy = PrivacyPage(page)\n    privacy.open()\n    expect(privacy.heading).to_be_visible()\n"
-        },
-        {
-            "path": "tests/test_terms.py",
-            "type": "test",
-            "code": "import pytest\nfrom playwright.sync_api import Page, expect\nfrom generated_tests.pages.terms_page import TermsPage\n\ndef test_terms_page_content(page: Page):\n    terms = TermsPage(page)\n    terms.open()\n    expect(terms.heading).to_be_visible()\n"
-        },
-        {
-            "path": "tests/test_contact.py",
-            "type": "test",
-            "code": "import pytest\nfrom playwright.sync_api import Page, expect\nfrom generated_tests.pages.contact_page import ContactPage\n\ndef test_contact_page_content(page: Page):\n    contact = ContactPage(page)\n    contact.open()\n    expect(contact.heading).to_be_visible()\n"
-        },
-        {
-            "path": "tests/test_refund.py",
-            "type": "test",
-            "code": "import pytest\nfrom playwright.sync_api import Page, expect\nfrom generated_tests.pages.refund_page import RefundPage\n\ndef test_refund_page_content(page: Page):\n    refund = RefundPage(page)\n    refund.open()\n    expect(refund.heading).to_be_visible()\n"
-        },
-        {
-            "path": "tests/test_shipping.py",
-            "type": "test",
-            "code": "import pytest\nfrom playwright.sync_api import Page, expect\nfrom generated_tests.pages.shipping_page import ShippingPage\n\ndef test_shipping_page_content(page: Page):\n    shipping = ShippingPage(page)\n    shipping.open()\n    expect(shipping.heading).to_be_visible()\n    expect(shipping.back_home_link).to_be_visible()\n"
-        },
-        {
-            "path": "tests/test_forgot_password.py",
-            "type": "test",
-            "code": "import pytest\nfrom playwright.sync_api import Page, expect\nfrom generated_tests.pages.forgot_password_page import ForgotPasswordPage\n\ndef test_forgot_password_page_elements(page: Page):\n    fp = ForgotPasswordPage(page)\n    fp.open()\n    expect(fp.reset_button).to_be_visible()\n"
-        },
-        {
-            "path": "tests/test_staff_login.py",
-            "type": "test",
-            "code": "import pytest\nfrom playwright.sync_api import Page, expect\nfrom generated_tests.pages.staff_login_page import StaffLoginPage\n\ndef test_staff_login_page_elements(page: Page):\n    staff = StaffLoginPage(page)\n    staff.open()\n    expect(staff.name_input).to_be_visible()\n    expect(staff.login_button).to_be_visible()\n"
-        },
-        {
-            "path": "tests/test_analytics.py",
-            "type": "test",
-            "code": "import pytest\nfrom playwright.sync_api import Page, expect\nfrom generated_tests.pages.analytics_page import AnalyticsPage\n\ndef test_analytics_dashboard(auth_page: Page):\n    analytics = AnalyticsPage(auth_page)\n    analytics.open()\n    expect(analytics.performance_heading).to_be_visible()\n    expect(analytics.menu_link).to_be_visible()\n"
-        },
-        {
-            "path": "tests/test_menu.py",
-            "type": "test",
-            "code": "import pytest\nfrom playwright.sync_api import Page, expect\nfrom generated_tests.pages.menu_page import MenuPage\n\ndef test_menu_page_elements(auth_page: Page):\n    menu = MenuPage(auth_page)\n    menu.open()\n    expect(menu.item_count_input).to_be_visible()\n    expect(menu.enter_button).to_be_visible()\n"
-        },
-        {
-            "path": "tests/test_qr.py",
-            "type": "test",
-            "code": "import pytest\nfrom playwright.sync_api import Page, expect\nfrom generated_tests.pages.qr_page import QrPage\n\ndef test_qr_page_elements(auth_page: Page):\n    qr = QrPage(auth_page)\n    qr.open()\n    expect(qr.table_count_input).to_be_visible()\n    expect(qr.generate_button).to_be_visible()\n"
-        },
-        {
-            "path": "tests/test_team.py",
-            "type": "test",
-            "code": "import pytest\nfrom playwright.sync_api import Page, expect\nfrom generated_tests.pages.team_page import TeamPage\n\ndef test_team_page_elements(auth_page: Page):\n    team = TeamPage(auth_page)\n    team.open()\n    expect(team.member_count_input).to_be_visible()\n    expect(team.enter_button).to_be_visible()\n"
-        },
-        {
-            "path": "tests/test_settings.py",
-            "type": "test",
-            "code": "import pytest\nfrom playwright.sync_api import Page, expect\nfrom generated_tests.pages.settings_page import SettingsPage\n\ndef test_settings_page_elements(auth_page: Page):\n    settings = SettingsPage(auth_page)\n    settings.open()\n    expect(settings.current_password_input).to_be_visible()\n    expect(settings.new_password_input).to_be_visible()\n    expect(settings.confirm_password_input).to_be_visible()\n"
-        },
-        {
-            "path": "tests/test_payment.py",
-            "type": "test",
-            "code": "import pytest\nfrom playwright.sync_api import Page, expect\nfrom generated_tests.pages.payment_page import PaymentPage\n\ndef test_payment_page_elements(auth_page: Page):\n    payment = PaymentPage(auth_page)\n    payment.open()\n    expect(payment.basic_heading).to_be_visible()\n    expect(payment.moderate_heading).to_be_visible()\n"
+            "code": "import pytest\nfrom playwright.sync_api import Page, expect\nfrom generated_tests.pages.home_page import HomePage\n\ndef test_myntra_insider_navigation(page: Page):\n    home = HomePage(page)\n    home.open()\n    home.click_myntra_insider()\n    expect(page).to_have_url(\"https://www.myntra.com/myntrainsider?cache=false\")\n\ndef test_gift_card_navigation(page: Page):\n    home = HomePage(page)\n    home.open()\n    home.click_gift_card()\n    expect(page).to_have_url(\"https://www.myntra.com/giftcard\")\n\ndef test_contact_us_navigation(page: Page):\n    home = HomePage(page)\n    home.open()\n    home.click_contact_us()\n    expect(page).to_have_url(\"https://www.myntra.com/contactus\")\n"
         }
     ]
 }

@@ -34,143 +34,17 @@ def _settle(page):
 
 
 @pytest.mark.bug
-@pytest.mark.xfail(strict=False, reason='BUG001: Page returns HTTP 503')
-def test_bug001_broken_page(page):
-    response = page.goto('https://denqr.onrender.com/', wait_until="domcontentloaded")
-    assert response is not None and response.status < 400, "Page did not load successfully"
-
-
-@pytest.mark.bug
-@pytest.mark.xfail(strict=False, reason='BUG002: Uncaught JavaScript error on page load')
-def test_bug002_javascript_error(page):
-    errors = []
-    page.on("pageerror", lambda exc: errors.append(str(exc)))
-    page.goto('https://denqr.onrender.com/Admin', wait_until="domcontentloaded")
+@pytest.mark.xfail(strict=False, reason='BUG001: Images without alt attribute')
+def test_bug001_images_missing_alt(page):
+    page.goto('https://www.myntra.com/', wait_until="domcontentloaded")
     _settle(page)
-    assert not errors, f"Uncaught JavaScript errors: {errors}"
+    assert page.locator("img:not([alt])").count() == 0, "Images without alt text"
 
 
 @pytest.mark.bug
-@pytest.mark.xfail(strict=False, reason='BUG003: Uncaught JavaScript error on page load')
-def test_bug003_javascript_error(auth_page):
-    errors = []
-    auth_page.on("pageerror", lambda exc: errors.append(str(exc)))
-    auth_page.goto('https://denqr.onrender.com/kitchen_dashboard', wait_until="domcontentloaded")
-    _settle(auth_page)
-    assert not errors, f"Uncaught JavaScript errors: {errors}"
-
-
-@pytest.mark.bug
-@pytest.mark.xfail(strict=False, reason='BUG004: Errors logged to the browser console')
-def test_bug004_console_error(auth_page):
-    errors = []
-    auth_page.on(
-        "console",
-        lambda msg: errors.append(msg.text)
-        if msg.type == "error" and not msg.text.startswith("Failed to load resource")
-        else None,
-    )
-    auth_page.goto('https://denqr.onrender.com/menu', wait_until="domcontentloaded")
-    _settle(auth_page)
-    assert not errors, f"Console errors: {errors}"
-
-
-@pytest.mark.bug
-@pytest.mark.xfail(strict=False, reason='BUG005: Page has no <h1> heading')
-def test_bug005_missing_h1(page):
-    page.goto('https://denqr.onrender.com/Admin', wait_until="domcontentloaded")
-    _settle(page)
-    assert page.locator("h1").count() >= 1, "Page has no <h1>"
-
-
-@pytest.mark.bug
-@pytest.mark.xfail(strict=False, reason='BUG006: Page has no <h1> heading')
-def test_bug006_missing_h1(page):
-    page.goto('https://denqr.onrender.com/forgot_password', wait_until="domcontentloaded")
-    _settle(page)
-    assert page.locator("h1").count() >= 1, "Page has no <h1>"
-
-
-@pytest.mark.bug
-@pytest.mark.xfail(strict=False, reason='BUG007: Form fields without an accessible label')
-def test_bug007_unlabeled_input(page):
-    page.goto('https://denqr.onrender.com/forgot_password', wait_until="domcontentloaded")
-    _settle(page)
-    unlabeled = page.evaluate(
-        """() => Array.from(document.querySelectorAll(
-            'input:not([type=hidden]):not([type=submit]):not([type=button]):not([type=reset]):not([type=image]), textarea, select'
-        )).filter((el) => {
-            const box = el.getBoundingClientRect();
-            return box.width > 0 && box.height > 0 &&
-                !(el.labels && el.labels.length) &&
-                !el.getAttribute('aria-label') &&
-                !el.getAttribute('aria-labelledby') &&
-                !el.getAttribute('title');
-        }).map((el) => el.name || el.id || el.type)"""
-    )
-    assert not unlabeled, f"Fields without an accessible label: {unlabeled}"
-
-
-@pytest.mark.bug
-@pytest.mark.xfail(strict=False, reason='BUG008: Page has no <h1> heading')
-def test_bug008_missing_h1(page):
-    page.goto('https://denqr.onrender.com/login', wait_until="domcontentloaded")
-    _settle(page)
-    assert page.locator("h1").count() >= 1, "Page has no <h1>"
-
-
-@pytest.mark.bug
-@pytest.mark.xfail(strict=False, reason='BUG009: Form fields without an accessible label')
-def test_bug009_unlabeled_input(auth_page):
-    auth_page.goto('https://denqr.onrender.com/qr', wait_until="domcontentloaded")
-    _settle(auth_page)
-    unlabeled = auth_page.evaluate(
-        """() => Array.from(document.querySelectorAll(
-            'input:not([type=hidden]):not([type=submit]):not([type=button]):not([type=reset]):not([type=image]), textarea, select'
-        )).filter((el) => {
-            const box = el.getBoundingClientRect();
-            return box.width > 0 && box.height > 0 &&
-                !(el.labels && el.labels.length) &&
-                !el.getAttribute('aria-label') &&
-                !el.getAttribute('aria-labelledby') &&
-                !el.getAttribute('title');
-        }).map((el) => el.name || el.id || el.type)"""
-    )
-    assert not unlabeled, f"Fields without an accessible label: {unlabeled}"
-
-
-@pytest.mark.bug
-@pytest.mark.xfail(strict=False, reason='BUG010: Form fields without an accessible label')
-def test_bug010_unlabeled_input(auth_page):
-    auth_page.goto('https://denqr.onrender.com/settings', wait_until="domcontentloaded")
-    _settle(auth_page)
-    unlabeled = auth_page.evaluate(
-        """() => Array.from(document.querySelectorAll(
-            'input:not([type=hidden]):not([type=submit]):not([type=button]):not([type=reset]):not([type=image]), textarea, select'
-        )).filter((el) => {
-            const box = el.getBoundingClientRect();
-            return box.width > 0 && box.height > 0 &&
-                !(el.labels && el.labels.length) &&
-                !el.getAttribute('aria-label') &&
-                !el.getAttribute('aria-labelledby') &&
-                !el.getAttribute('title');
-        }).map((el) => el.name || el.id || el.type)"""
-    )
-    assert not unlabeled, f"Fields without an accessible label: {unlabeled}"
-
-
-@pytest.mark.bug
-@pytest.mark.xfail(strict=False, reason='BUG011: Page has no <h1> heading')
-def test_bug011_missing_h1(page):
-    page.goto('https://denqr.onrender.com/staff_login', wait_until="domcontentloaded")
-    _settle(page)
-    assert page.locator("h1").count() >= 1, "Page has no <h1>"
-
-
-@pytest.mark.bug
-@pytest.mark.xfail(strict=False, reason='BUG012: Form fields without an accessible label')
-def test_bug012_unlabeled_input(page):
-    page.goto('https://denqr.onrender.com/staff_login', wait_until="domcontentloaded")
+@pytest.mark.xfail(strict=False, reason='BUG002: Form fields without an accessible label')
+def test_bug002_unlabeled_input(page):
+    page.goto('https://www.myntra.com/', wait_until="domcontentloaded")
     _settle(page)
     unlabeled = page.evaluate(
         """() => Array.from(document.querySelectorAll(

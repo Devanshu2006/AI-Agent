@@ -1,28 +1,9 @@
 {
-    "safe_to_auto_heal": true,
-    "failure_category": "locator",
-    "root_cause": "Strict mode violation: get_by_label(\"Password\") matches both the 'Password' and 'Confirm Password' input fields on the signup page.",
+    "safe_to_auto_heal": false,
+    "failure_category": "application_bug",
+    "root_cause": "The Contact Us page navigation redirects the user to an authentication/login wall (`https://www.myntra.com/login?referer=...`) rather than showing the contact page directly, which causes the URL expectation `to_have_url(\"https://www.myntra.com/contactus\")` to fail as the test correctly asserts the expected business logic. Regarding the Myntra Insider link, the element is in the footer or requires scrolling/visibility handling which makes the test fail due to locator timeout, but since there is an authentication barrier and the test assertion itself is correct, these represent application/behavior differences.",
     "confidence": "High",
-    "suggested_fix": "Update the locator in SignupPage to target the password input uniquely, e.g. using page.locator('#password') or get_by_role('textbox', name='Password', exact=True).",
-    "patches": [
-        {
-            "file": "generated_tests/pages/signup_page.py",
-            "operation": "replace",
-            "old_text": "        self.password_input = page.get_by_label(\"Password\")",
-            "new_text": "        self.password_input = page.get_by_role(\"textbox\", name=\"Password\", exact=True)",
-            "reason": "Fix strict mode violation by using an exact role locator for the password field instead of label."
-        }
-    ],
-    "healed": true,
-    "backup_directory": "generated_tests\\backups\\attempt_1",
-    "applied_patches": [
-        {
-            "file": "generated_tests/pages/signup_page.py",
-            "operation": "replace",
-            "old_text": "        self.password_input = page.get_by_label(\"Password\")",
-            "new_text": "        self.password_input = page.get_by_role(\"textbox\", name=\"Password\", exact=True)",
-            "reason": "Fix strict mode violation by using an exact role locator for the password field instead of label."
-        }
-    ],
-    "timestamp": "2026-10-18T17:46:11.717096"
+    "suggested_fix": "No fix in tests as the tests are correct and correctly assert the target behavior/navigation of the application.",
+    "patches": [],
+    "healed": false
 }
